@@ -1,0 +1,9 @@
+{
+  "id": "haz",
+  "display_name": "Height z-score (from CDC) for age, gender",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Age- and gender-specific height z-score based on CDC norms"
+  }
+}

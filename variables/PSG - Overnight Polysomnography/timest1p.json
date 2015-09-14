@@ -1,0 +1,9 @@
+{
+  "id": "timest1p",
+  "display_name": "PSG: Calculated - pct time stage 1",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Percent of sleep time in stage 1 [100*(Number of minutes scored as stage 1) / (total sleep time)]"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "missbphr",
+  "display_name": "Blood Pressure: number of missing HR",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Blood pressure is collected six times, three measurements in the evening and three in the morning.  This is the number of time points missing Heart Rate."
+  }
+}

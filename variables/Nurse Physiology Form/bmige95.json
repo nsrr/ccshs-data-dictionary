@@ -1,0 +1,9 @@
+{
+  "id": "bmige95",
+  "display_name": "BMI >= 95th percentile",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "BMI percentile >= 95"
+  }
+}

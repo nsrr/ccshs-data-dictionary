@@ -1,0 +1,9 @@
+{
+  "id": "yacarm",
+  "display_name": "SHQY: 44. Activity: Weight training (Arm) - minutes per week",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Calculated as self-report of the number of minutes of activity per day times self report of the number of days per week in that activity"
+  }
+}

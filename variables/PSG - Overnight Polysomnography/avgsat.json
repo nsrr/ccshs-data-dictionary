@@ -1,0 +1,9 @@
+{
+  "id": "avgsat",
+  "display_name": "PSG: Calculated - avg SaO2 in sleep",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Average SaO2% during sleep  [Mean(all SaO2 values in sleep)]"
+  }
+}

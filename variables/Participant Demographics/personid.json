@@ -1,0 +1,9 @@
+{
+  "id": "personid",
+  "display_name": "PersonID",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Person ID"
+  }
+}

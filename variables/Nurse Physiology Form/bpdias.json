@@ -1,0 +1,9 @@
+{
+  "id": "bpdias",
+  "display_name": "Diastolic BP (mean of 6 measurements)",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Blood pressure is collected six times, three measurements in the evening and three in the morning.  This is the mean of the Diastolic measurements at each time point."
+  }
+}

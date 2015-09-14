@@ -1,0 +1,9 @@
+{
+  "id": "age",
+  "display_name": "Age at time of TREC visit",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": null
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "minsat",
+  "display_name": "PSG: Calculated - min SaO2 in sleep",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Lowest SaO2% during sleep  [Min(all SaO2 values in sleep)]"
+  }
+}

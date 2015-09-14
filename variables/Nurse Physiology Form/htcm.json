@@ -1,0 +1,9 @@
+{
+  "id": "htcm",
+  "display_name": "Height (cm)",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Height (in cm)"
+  }
+}

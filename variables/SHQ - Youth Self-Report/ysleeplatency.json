@@ -1,0 +1,9 @@
+{
+  "id": "ysleeplatency",
+  "display_name": "SHQY: self-reported sleep latency",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Calculated from self report of hours and minutes it takes to fall asleep (ysleeplatency = (yflashr * 60) + yflasmn)"
+  }
+}

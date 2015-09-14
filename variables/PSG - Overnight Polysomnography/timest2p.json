@@ -1,0 +1,9 @@
+{
+  "id": "timest2p",
+  "display_name": "PSG: Calculated - pct time stage 2",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Percent of sleep time in stage 2 [100*(Number of minutes scored as stage 2) / (total sleep time)]"
+  }
+}

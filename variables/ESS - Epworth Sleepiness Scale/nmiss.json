@@ -1,0 +1,9 @@
+{
+  "id": "nmiss",
+  "display_name": "ESS: Number of missing items on modified ESS (1-8)",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": null
+  }
+}

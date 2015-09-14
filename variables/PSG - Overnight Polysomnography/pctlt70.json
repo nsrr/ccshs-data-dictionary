@@ -1,0 +1,9 @@
+{
+  "id": "pctlt70",
+  "display_name": "PSG: Calculated - pct time < 70% desat",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Percent of sleep time with oxygen saturation < 70%.  Ratio of the number of minutes with oxygen saturation under 70% to the total sleep time expressed in hours.  [100*(Total Number of minutes with SaO2 < 70) / (total sleep time)]"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "slpprdp",
+  "display_name": "PSG: Total Sleep Time (minutes)",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Total time from lights out to lights on that is scored as sleep (rounded to nearest minute)"
+  }
+}

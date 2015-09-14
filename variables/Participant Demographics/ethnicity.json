@@ -1,0 +1,9 @@
+{
+  "id": "ethnicity",
+  "display_name": "Ethnicity",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "(1=hispanic or latino, 2=not)"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "bp2sys1",
+  "display_name": "Blood Pressure: Systolic BP (Morning) time 1",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "First measurement of Systolic BP in morning"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "bpsys",
+  "display_name": "Systolic BP (mean of 6 measurements)",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Blood pressure is collected six times, three measurements in the evening and three in the morning.  This is the mean of the Systolic measurements at each time point."
+  }
+}

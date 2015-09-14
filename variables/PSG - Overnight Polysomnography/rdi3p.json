@@ -1,0 +1,9 @@
+{
+  "id": "rdi3p",
+  "display_name": "PSG: Calculated - Overall RDI at 3% desat",
+  "description": "",
+  "type": null,
+  "other": {
+    "DESCRIPTION": "Respiratory Disturbance Index at 3% desat.  Ratio of the count of all apneas (central and obstructive) and hypopneas associated with at least a 3% oxygen desaturation to the total sleep time expressed in hours."
+  }
+}
