@@ -1,9 +1,6 @@
 {
   "id": "bp2dias2",
   "display_name": "Blood Pressure: Diastolic BP (Morning) time 2",
-  "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": "Second measurement of Diastolic BP in morning"
-  }
+  "description": "Second measurement of Diastolic BP in morning",
+  "type": null
 }

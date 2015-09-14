@@ -2,8 +2,5 @@
   "id": "nmiss_adult",
   "display_name": "ESS: Number of missing items on adult ESS (items 1-7, 9)",
   "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": null
-  }
+  "type": null
 }

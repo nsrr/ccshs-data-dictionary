@@ -2,8 +2,5 @@
   "id": "nslpwk",
   "display_name": "Actigraphy: Number of weekday nights with sleep time data",
   "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": null
-  }
+  "type": null
 }

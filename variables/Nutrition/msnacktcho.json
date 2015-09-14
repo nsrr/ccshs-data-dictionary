@@ -2,8 +2,5 @@
   "id": "msnacktcho",
   "display_name": "Nutrition: Mean carbohydrates from snacks per day (g)",
   "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": null
-  }
+  "type": null
 }

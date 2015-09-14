@@ -2,8 +2,5 @@
   "id": "cslpend",
   "display_name": "Actigraphy: CV sleep time - weekend nights",
   "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": null
-  }
+  "type": null
 }

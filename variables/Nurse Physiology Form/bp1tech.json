@@ -1,9 +1,6 @@
 {
   "id": "bp1tech",
   "display_name": "Blood Pressure: Tech Initials (Evening)",
-  "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": "Technician performing evening blood pressure collection"
-  }
+  "description": "Technician performing evening blood pressure collection",
+  "type": null
 }

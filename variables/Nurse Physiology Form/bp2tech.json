@@ -1,9 +1,6 @@
 {
   "id": "bp2tech",
   "display_name": "Blood Pressure: Tech Initials (Morning)",
-  "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": "Technician performing morning blood pressure collection"
-  }
+  "description": "Technician performing morning blood pressure collection",
+  "type": null
 }

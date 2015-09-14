@@ -2,8 +2,5 @@
   "id": "sleepy_adult",
   "display_name": "Sleepy: Based on Adult ESS Score >= 11",
   "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": null
-  }
+  "type": null
 }

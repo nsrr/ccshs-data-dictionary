@@ -1,9 +1,6 @@
 {
   "id": "bmicat",
   "display_name": "BMI category",
-  "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": "Categories of BMI based on BMI Percentile (1=below 85th percentile, 2=between 85th and 95th percentile, 3=95th percentile or above)"
-  }
+  "description": "Categories of BMI based on BMI Percentile (1=below 85th percentile, 2=between 85th and 95th percentile, 3=95th percentile or above)",
+  "type": null
 }

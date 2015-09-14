@@ -2,8 +2,5 @@
   "id": "mrigrams",
   "display_name": "Nutrition: Mean Total Grams (g) per day",
   "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": null
-  }
+  "type": null
 }

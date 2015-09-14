@@ -2,8 +2,5 @@
   "id": "essscore_adult",
   "display_name": "ESS: Total Score for Adult ESS",
   "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": null
-  }
+  "type": null
 }

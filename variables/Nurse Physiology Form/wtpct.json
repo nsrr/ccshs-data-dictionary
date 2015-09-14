@@ -1,9 +1,6 @@
 {
   "id": "wtpct",
   "display_name": "Weight %ile (from CDC) for age, gender",
-  "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": "Age- and gender-specific weight percentile based on CDC norms"
-  }
+  "description": "Age- and gender-specific weight percentile based on CDC norms",
+  "type": null
 }

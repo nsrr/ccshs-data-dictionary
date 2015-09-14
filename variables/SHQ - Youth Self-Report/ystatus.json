@@ -2,8 +2,5 @@
   "id": "ystatus",
   "display_name": "SHQY: 56. rate socioeconomic standing based on ladder",
   "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": null
-  }
+  "type": null
 }

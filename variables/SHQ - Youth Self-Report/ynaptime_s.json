@@ -1,9 +1,6 @@
 {
   "id": "ynaptime_s",
   "display_name": "SHQY: self-reported daily nap time in minutes (all days)",
-  "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": "Calculated as a weighted average of self-reported daily nap time from weekdays and from weekends (ynaptime_s = 5/7 * ywd_napdur  + 2/7*ywe_napdur)"
-  }
+  "description": "Calculated as a weighted average of self-reported daily nap time from weekdays and from weekends (ynaptime_s = 5/7 * ywd_napdur  + 2/7*ywe_napdur)",
+  "type": null
 }

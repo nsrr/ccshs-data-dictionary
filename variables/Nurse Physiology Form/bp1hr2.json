@@ -1,9 +1,6 @@
 {
   "id": "bp1hr2",
   "display_name": "Blood Pressure: Heart Rate (Evening) time 2",
-  "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": "Second measurement of Heart Rate in evening"
-  }
+  "description": "Second measurement of Heart Rate in evening",
+  "type": null
 }

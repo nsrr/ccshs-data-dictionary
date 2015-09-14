@@ -1,9 +1,6 @@
 {
   "id": "wd_slpmid",
   "display_name": "SHQY: midpoint of time in bed from self report (Weekday)",
-  "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": "Calculated as the midpoint between self-reported weekday wake time and self-reported weekday bed time."
-  }
+  "description": "Calculated as the midpoint between self-reported weekday wake time and self-reported weekday bed time.",
+  "type": null
 }

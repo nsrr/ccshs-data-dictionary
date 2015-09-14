@@ -1,9 +1,6 @@
 {
   "id": "wtkg",
   "display_name": "Weight (kg)",
-  "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": "Weight (in kg)"
-  }
+  "description": "Weight (in kg)",
+  "type": null
 }

@@ -1,9 +1,6 @@
 {
   "id": "oai0p",
   "display_name": "PSG: Calculated - Obstructive Apnea Index all desats",
-  "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": "Obstructive Apnea Index at all desats  [(Total number of obstructive apneas associated with all desats) / (hours of sleep)]"
-  }
+  "description": "Obstructive Apnea Index at all desats  [(Total number of obstructive apneas associated with all desats) / (hours of sleep)]",
+  "type": null
 }

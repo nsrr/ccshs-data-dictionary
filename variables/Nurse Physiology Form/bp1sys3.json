@@ -1,9 +1,6 @@
 {
   "id": "bp1sys3",
   "display_name": "Blood Pressure: Systolic BP (Evening) time 3",
-  "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": "Third measurement of Systolic BP in evening"
-  }
+  "description": "Third measurement of Systolic BP in evening",
+  "type": null
 }

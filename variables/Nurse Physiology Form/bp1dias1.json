@@ -1,9 +1,6 @@
 {
   "id": "bp1dias1",
   "display_name": "Blood Pressure: Diastolic BP (Evening) time 1",
-  "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": "First measurement of Diastolic BP in evening"
-  }
+  "description": "First measurement of Diastolic BP in evening",
+  "type": null
 }

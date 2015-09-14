@@ -2,8 +2,5 @@
   "id": "mripro",
   "display_name": "Nutrition: Mean Total Protein (g) per day",
   "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": null
-  }
+  "type": null
 }

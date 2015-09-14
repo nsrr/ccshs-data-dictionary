@@ -1,9 +1,6 @@
 {
   "id": "bmiz",
   "display_name": "BMI z-score (from CDC) for age, gender",
-  "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": "Age- and gender-specific BMI z-score based on CDC norms"
-  }
+  "description": "Age- and gender-specific BMI z-score based on CDC norms",
+  "type": null
 }

@@ -2,8 +2,5 @@
   "id": "wd_bedtime",
   "display_name": "SHQY: Self-reported Bedtime (Weekday)",
   "description": "",
-  "type": null,
-  "other": {
-    "DESCRIPTION": null
-  }
+  "type": null
 }
