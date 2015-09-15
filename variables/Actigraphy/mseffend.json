@@ -1,6 +1,7 @@
 {
   "id": "mseffend",
-  "display_name": "Actigraphy: Mean sleep efficiency - weekend nights (minutes)",
+  "display_name": "Mean sleep efficiency - weekend nights",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "minutes"
 }

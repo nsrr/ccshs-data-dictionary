@@ -2,5 +2,6 @@
   "id": "ethnicity",
   "display_name": "Ethnicity",
   "description": "(1=hispanic or latino, 2=not)",
-  "type": null
+  "type": "choices",
+  "domain": "ethnicity"
 }

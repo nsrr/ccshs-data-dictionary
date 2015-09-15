@@ -1,6 +1,7 @@
 {
   "id": "timest2",
-  "display_name": "PSG: Calculated - time stage 2 minutes",
+  "display_name": "Calculated - time stage 2 minutes",
   "description": "Total time scored as stage 2 rounded to nearest minute",
-  "type": null
+  "type": "numeric",
+  "units": "minutes"
 }

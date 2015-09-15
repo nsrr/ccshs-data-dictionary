@@ -1,6 +1,7 @@
 {
   "id": "slp_eff",
-  "display_name": "PSG: Calculated - sleep efficiency %",
+  "display_name": "Calculated - sleep efficiency percentage",
   "description": "Percentage of time in bed that was spent sleeping, or the ratio of total sleep time to total time in bed, expressed as a percentage.   [100*(total sleep time) / (total time in bed)]",
-  "type": null
+  "type": "numeric",
+  "units": "percent"
 }

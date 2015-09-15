@@ -1,6 +1,7 @@
 {
   "id": "bp1dias1",
-  "display_name": "Blood Pressure: Diastolic BP (Evening) time 1",
-  "description": "First measurement of Diastolic BP in evening",
-  "type": null
+  "display_name": "Diastolic blood pressure (Evening) time 1",
+  "description": "First measurement of diastolic blood pressure in evening",
+  "type": "numeric",
+  "units": "millimeters of mercury"
 }

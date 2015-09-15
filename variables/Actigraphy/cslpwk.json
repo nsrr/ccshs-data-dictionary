@@ -1,6 +1,7 @@
 {
   "id": "cslpwk",
-  "display_name": "Actigraphy: CV sleep time - weekday nights",
+  "display_name": "CV sleep time - weekday nights",
   "description": "",
-  "type": null
+  "type": "time",
+  "units": ""
 }

@@ -1,6 +1,7 @@
 {
   "id": "bp1sys3",
-  "display_name": "Blood Pressure: Systolic BP (Evening) time 3",
-  "description": "Third measurement of Systolic BP in evening",
-  "type": null
+  "display_name": "Systolic blood pressure (Evening) time 3",
+  "description": "Third measurement of systolic blood pressure in evening",
+  "type": "numeric",
+  "units": "millimeters of mercury"
 }

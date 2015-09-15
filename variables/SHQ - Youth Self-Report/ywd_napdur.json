@@ -1,6 +1,7 @@
 {
   "id": "ywd_napdur",
-  "display_name": "SHQY: self-reported daily nap time in minutes (Weekday)",
+  "display_name": "Self-reported daily nap time in minutes (Weekday)",
   "description": "Calculated from self report of hours and minutes spent napping on average on weekdays (ywd_napdur = (ywdnphr * 60) + ywdnpmn)",
-  "type": null
+  "type": "numeric",
+  "units": "minutes"
 }

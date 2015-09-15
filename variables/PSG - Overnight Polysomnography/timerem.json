@@ -1,6 +1,7 @@
 {
   "id": "timerem",
-  "display_name": "PSG: Calculated - time rem minutes",
+  "display_name": "Calculated - time rem minutes",
   "description": "Total time scored as REM rounded to nearest minute",
-  "type": null
+  "type": "numeric",
+  "units": "minutes"
 }

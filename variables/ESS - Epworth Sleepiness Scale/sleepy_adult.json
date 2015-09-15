@@ -1,6 +1,7 @@
 {
   "id": "sleepy_adult",
-  "display_name": "Sleepy: Based on Adult ESS Score >= 11",
+  "display_name": "Based on Adult ESS Score >= 11",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": ""
 }

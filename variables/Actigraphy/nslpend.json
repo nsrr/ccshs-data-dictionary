@@ -1,6 +1,7 @@
 {
   "id": "nslpend",
-  "display_name": "Actigraphy: Number of weekend nights with sleep time data",
+  "display_name": "Number of weekend nights with sleep time data",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "nights"
 }

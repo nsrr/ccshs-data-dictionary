@@ -1,6 +1,7 @@
 {
   "id": "msnackkcal",
-  "display_name": "Nutrition: Mean kilocalories from snacks per day",
+  "display_name": "Mean kilocalories from snacks per day",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "kilocalories per day"
 }

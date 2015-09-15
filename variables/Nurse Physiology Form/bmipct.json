@@ -1,6 +1,7 @@
 {
   "id": "bmipct",
-  "display_name": "BMI %ile (from CDC) for age, gender",
+  "display_name": "BMI percentile (from CDC) for age, gender",
   "description": "Age- and gender-specific BMI percentile based on CDC norms",
-  "type": null
+  "type": "numeric",
+  "units": ""
 }

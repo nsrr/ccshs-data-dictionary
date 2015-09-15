@@ -1,6 +1,7 @@
 {
   "id": "essscore",
-  "display_name": "ESS: Total Score for Modified ESS",
+  "display_name": "Total score for modified ESS",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": ""
 }

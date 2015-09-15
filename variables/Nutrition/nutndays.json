@@ -1,6 +1,7 @@
 {
   "id": "nutndays",
-  "display_name": "Nutrition: Number days of nutrition recall data",
+  "display_name": "Number days of nutrition recall data",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "days"
 }

@@ -1,6 +1,7 @@
 {
   "id": "bp2dias1",
-  "display_name": "Blood Pressure: Diastolic BP (Morning) time 1",
-  "description": "First measurement of Diastolic BP in morning",
-  "type": null
+  "display_name": "Diastolic blood pressure (Morning) time 1",
+  "description": "First measurement of diastolic blood pressure in morning",
+  "type": "numeric",
+  "units": "millimeters of mercury"
 }

@@ -1,6 +1,7 @@
 {
   "id": "yevrsmkstpa",
-  "display_name": "SHQY: 45b. Age when stopped smoking regularly",
+  "display_name": "Age when stopped smoking regularly",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "years"
 }

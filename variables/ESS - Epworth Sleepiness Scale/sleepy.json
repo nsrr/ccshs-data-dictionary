@@ -1,6 +1,7 @@
 {
   "id": "sleepy",
-  "display_name": "Sleepy: Modified ESS Score >= 11",
+  "display_name": "Modified ESS Score >= 11",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": ""
 }

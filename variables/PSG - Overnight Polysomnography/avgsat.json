@@ -1,6 +1,7 @@
 {
   "id": "avgsat",
-  "display_name": "PSG: Calculated - avg SaO2 in sleep",
-  "description": "Average SaO2% during sleep  [Mean(all SaO2 values in sleep)]",
-  "type": null
+  "display_name": "Calculated - avgerage oxygen saturation in sleep",
+  "description": "Average oxygen saturation during sleep  [Mean(all SaO2 values in sleep)]",
+  "type": "numeric",
+  "units": "percent"
 }

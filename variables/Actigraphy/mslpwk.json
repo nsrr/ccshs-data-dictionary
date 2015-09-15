@@ -1,6 +1,7 @@
 {
   "id": "mslpwk",
-  "display_name": "Actigraphy: Mean sleep time - weekday nights (minutes)",
+  "display_name": "Mean sleep time - weekday nights",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "minutes"
 }

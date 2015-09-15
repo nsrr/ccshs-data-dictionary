@@ -1,6 +1,7 @@
 {
   "id": "bp1hr1",
-  "display_name": "Blood Pressure: Heart Rate (Evening) time 1",
-  "description": "First measurement of Heart Rate in evening",
-  "type": null
+  "display_name": "Heart rate (Evening) time 1",
+  "description": "First measurement of heart rate in evening",
+  "type": "numeric",
+  "units": "beats per minute"
 }

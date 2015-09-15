@@ -1,6 +1,7 @@
 {
   "id": "htcm",
-  "display_name": "Height (cm)",
-  "description": "Height (in cm)",
-  "type": null
+  "display_name": "Height",
+  "description": "Height in centimeters",
+  "type": "numeric",
+  "units": "centimeters"
 }

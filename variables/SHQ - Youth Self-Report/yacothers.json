@@ -1,6 +1,7 @@
 {
   "id": "yacothers",
-  "display_name": "SHQY: 44k. Activity: Specify Other",
+  "display_name": "Specify Other",
   "description": "",
-  "type": null
+  "type": "string",
+  "units": ""
 }

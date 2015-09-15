@@ -1,6 +1,7 @@
 {
   "id": "timest34",
-  "display_name": "PSG: Calculated - time stage 3-4 minutes",
+  "display_name": "Calculated - time stage 3-4 minutes",
   "description": "Total time scored as stage 3/4 rounded to nearest minute",
-  "type": null
+  "type": "numeric",
+  "units": "minutes"
 }

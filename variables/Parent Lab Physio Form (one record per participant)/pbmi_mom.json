@@ -1,6 +1,7 @@
 {
   "id": "pbmi_mom",
-  "display_name": "Maternal Physiology: BMI (kg/m^2) (mom)",
+  "display_name": "Body Mass Index of mom",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "kilograms per square meter"
 }

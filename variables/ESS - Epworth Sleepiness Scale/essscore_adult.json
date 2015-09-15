@@ -1,6 +1,7 @@
 {
   "id": "essscore_adult",
-  "display_name": "ESS: Total Score for Adult ESS",
+  "display_name": "Total score for adult ESS",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": ""
 }

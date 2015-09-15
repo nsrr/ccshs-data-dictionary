@@ -1,6 +1,7 @@
 {
   "id": "wtkg",
-  "display_name": "Weight (kg)",
-  "description": "Weight (in kg)",
-  "type": null
+  "display_name": "Weight",
+  "description": "Weight in kilograms",
+  "type": "numeric",
+  "units": "kilograms"
 }

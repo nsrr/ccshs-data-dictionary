@@ -1,6 +1,7 @@
 {
   "id": "pctlt95",
-  "display_name": "PSG: Calculated - pct time < 95% desat",
+  "display_name": "Calculated - percent time < 95% desaturation",
   "description": "Percent of sleep time with oxygen saturation < 95%.  Ratio of the number of minutes with oxygen saturation under 95% to the total sleep time expressed in hours.  [100*(Total Number of minutes with SaO2 < 95) / (total sleep time)]",
-  "type": null
+  "type": "numeric",
+  "units": "percent"
 }

@@ -1,6 +1,7 @@
 {
   "id": "minsat",
-  "display_name": "PSG: Calculated - min SaO2 in sleep",
-  "description": "Lowest SaO2% during sleep  [Min(all SaO2 values in sleep)]",
-  "type": null
+  "display_name": "Calculated - minimum oxygen saturation in sleep",
+  "description": "Lowest oxygen saturation during sleep  [Min(all SaO2 values in sleep)]",
+  "type": "numeric",
+  "units": "percent"
 }

@@ -1,6 +1,7 @@
 {
   "id": "bp1dias3",
-  "display_name": "Blood Pressure: Diastolic BP (Evening) time 3",
-  "description": "Third measurement of Diastolic BP in evening",
-  "type": null
+  "display_name": "Diastolic blood pressure (Evening) time 3",
+  "description": "Third measurement of diastolic blood pressure in evening",
+  "type": "numeric",
+  "units": "millimeters of mercury"
 }

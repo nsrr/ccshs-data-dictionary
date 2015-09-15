@@ -1,6 +1,7 @@
 {
   "id": "bp1sys2",
-  "display_name": "Blood Pressure: Systolic BP (Evening) time 2",
-  "description": "Second measurement of Systolic BP in evening",
-  "type": null
+  "display_name": "Systolic blood pressure (Evening) time 2",
+  "description": "Second measurement of systolic blood pressure in evening",
+  "type": "numeric",
+  "units": "millimeters of mercury"
 }

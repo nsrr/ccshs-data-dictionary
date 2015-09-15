@@ -1,6 +1,7 @@
 {
   "id": "pbmi_dad",
-  "display_name": "Paternal Physiology: BMI (kg/m^2) (dad)",
+  "display_name": "Body Mass Index of dad",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "kilograms per square meter"
 }

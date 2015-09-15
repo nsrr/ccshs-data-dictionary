@@ -1,6 +1,7 @@
 {
   "id": "bp2dias3",
-  "display_name": "Blood Pressure: Diastolic BP (Morning) time 3",
-  "description": "Third measurement of Diastolic BP in morning",
-  "type": null
+  "display_name": "Diastolic blood pressure (Morning) time 3",
+  "description": "Third measurement of diastolic blood pressure in morning",
+  "type": "numeric",
+  "units": "millimeters of mercury"
 }

@@ -1,6 +1,7 @@
 {
   "id": "yacvig",
-  "display_name": "SHQY: 44. Activity: Other vigorous activities - minutes per week",
+  "display_name": "Other vigorous activitie",
   "description": "Calculated as self-report of the number of minutes of activity per day times self report of the number of days per week in that activity",
-  "type": null
+  "type": "numeric",
+  "units": "minutes per week"
 }

@@ -1,6 +1,7 @@
 {
   "id": "mseff",
-  "display_name": "Actigraphy: Mean sleep efficiency - all nights (minutes)",
+  "display_name": "Mean sleep efficiency - all nights",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "minutes"
 }

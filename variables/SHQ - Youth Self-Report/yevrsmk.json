@@ -1,6 +1,7 @@
 {
   "id": "yevrsmk",
-  "display_name": "SHQY: 45. ever smoked cigarettes, cigars or pipe",
+  "display_name": "Ever smoked cigarettes, cigars or pipe",
   "description": "",
-  "type": null
+  "type": "choices",
+  "domain": "yesno"
 }

@@ -1,6 +1,7 @@
 {
   "id": "mslp",
-  "display_name": "Actigraphy: Mean sleep time - all nights (minutes)",
+  "display_name": "Mean sleep time - all nights",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "minutes"
 }

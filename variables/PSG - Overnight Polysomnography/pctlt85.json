@@ -1,6 +1,7 @@
 {
   "id": "pctlt85",
-  "display_name": "PSG: Calculated - pct time < 85% desat",
-  "description": "Percent of sleep time with oxygen saturation < 85%  [100*(Total Number of minutes with SaO2 < 85) / (total sleep time)]",
-  "type": null
+  "display_name": "Calculated - percent time < 85% desaturation",
+  "description": "Percent of sleep time with oxygen saturation < 85%  [100*(Total Number of minutes with oxygen saturation < 85) / (total sleep time)]",
+  "type": "numeric",
+  "units": "percent"
 }

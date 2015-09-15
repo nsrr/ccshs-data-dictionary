@@ -1,6 +1,7 @@
 {
   "id": "ywe_slpdur",
-  "display_name": "SHQY: sleep time from self-reported usual sleep time (Weekend)",
+  "display_name": "Sleep time from self-reported usual sleep time (Weekend)",
   "description": "Calculated from self report of hours and minutes spent asleep (ywe_slpdur = (yweslhr * 60) + yweslmn)",
-  "type": null
+  "type": "numeric",
+  "units": ""
 }

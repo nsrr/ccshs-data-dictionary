@@ -1,6 +1,7 @@
 {
   "id": "oahi3",
-  "display_name": "PSG: Calculated - Obstructive apnea (all desats) Hypopnea (3% desat) Index",
-  "description": "Obstructive Apnea Hypopnea Index at 3% desat.  Ratio of the count of all obstructive apneas plus the count of hypopneas associated with at least a 3% oxygen desaturation to the total sleep time expressed in hours.",
-  "type": null
+  "display_name": "Calculated - Obstructive apnea (all desaturations) Hypopnea (3% desaturation) Index",
+  "description": "Obstructive Apnea Hypopnea Index at 3% desaturation.  Ratio of the count of all obstructive apneas plus the count of hypopneas associated with at least a 3% oxygen desaturation to the total sleep time expressed in hours.",
+  "type": "numeric",
+  "units": ""
 }

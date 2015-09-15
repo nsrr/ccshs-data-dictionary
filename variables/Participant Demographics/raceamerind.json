@@ -2,5 +2,6 @@
   "id": "raceamerind",
   "display_name": "American Indian Race",
   "description": "",
-  "type": null
+  "type": "choices",
+  "domain": "checked"
 }

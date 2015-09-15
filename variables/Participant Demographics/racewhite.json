@@ -2,5 +2,6 @@
   "id": "racewhite",
   "display_name": "White Race",
   "description": "",
-  "type": null
+  "type": "choices",
+  "domain": "checked"
 }

@@ -1,6 +1,7 @@
 {
   "id": "wd_slpdur",
-  "display_name": "SHQY: sleep time from self-reported bed and wake times in minutes (Weekday)",
+  "display_name": "Sleep time from self-reported bed and wake times in minutes (Weekday)",
   "description": "Calculated as the difference between self-reported weekday wake time and self-reported weekday bed time.",
-  "type": null
+  "type": "numeric",
+  "units": "minutes"
 }

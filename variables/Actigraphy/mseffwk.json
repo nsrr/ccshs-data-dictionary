@@ -1,6 +1,7 @@
 {
   "id": "mseffwk",
-  "display_name": "Actigraphy: Mean sleep efficiency - weekday nights (minutes)",
+  "display_name": "Mean sleep efficiency - weekday nights",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "minutes"
 }

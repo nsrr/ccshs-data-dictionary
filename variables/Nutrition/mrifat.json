@@ -1,6 +1,7 @@
 {
   "id": "mrifat",
-  "display_name": "Nutrition: Mean Total Fat (g) per day",
+  "display_name": "Mean total fat per day",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "grams per day"
 }

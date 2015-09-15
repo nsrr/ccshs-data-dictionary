@@ -1,6 +1,7 @@
 {
   "id": "mrikcal",
-  "display_name": "Nutrition: Mean Energy (kcal) per day",
+  "display_name": "Mean energy per day",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "kilocalories per day"
 }

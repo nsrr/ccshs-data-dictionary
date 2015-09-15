@@ -1,6 +1,7 @@
 {
   "id": "pctfat_houtkooper",
-  "display_name": "BIA: Fat Mass percent of weight (%) (Houtkooper)",
+  "display_name": "Fat mass percent of weight (Houtkooper)",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "percent"
 }

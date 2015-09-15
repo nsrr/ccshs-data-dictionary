@@ -1,6 +1,7 @@
 {
   "id": "times34p",
-  "display_name": "PSG: Calculated - pct time stage 3-4",
+  "display_name": "Calculated - percent time stage 3-4",
   "description": "Percent of sleep time in stage 3-4 [100*(Number of minutes scored as stage 3-4) / (total sleep time)]",
-  "type": null
+  "type": "numeric",
+  "units": "percent"
 }

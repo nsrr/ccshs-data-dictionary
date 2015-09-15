@@ -1,6 +1,7 @@
 {
   "id": "ycursmk",
-  "display_name": "SHQY: 45b. Currently Smoke Regularly",
+  "display_name": "Currently Smoke Regularly",
   "description": "",
-  "type": null
+  "type": "choices",
+  "domain": "yesno"
 }

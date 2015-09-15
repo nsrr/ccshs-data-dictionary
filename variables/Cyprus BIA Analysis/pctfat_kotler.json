@@ -1,6 +1,7 @@
 {
   "id": "pctfat_kotler",
-  "display_name": "BIA: Fat Mass percent of weight (%) (Kotler)",
+  "display_name": "Fat mass percent of weight (Kotler)",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "percent"
 }

@@ -1,6 +1,7 @@
 {
   "id": "ydrkcaf",
-  "display_name": "SHQY: 48. caffeine beverages per day",
+  "display_name": "Caffeine beverages per day",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "drinks"
 }

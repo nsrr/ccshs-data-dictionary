@@ -1,6 +1,7 @@
 {
   "id": "bp2sys1",
-  "display_name": "Blood Pressure: Systolic BP (Morning) time 1",
-  "description": "First measurement of Systolic BP in morning",
-  "type": null
+  "display_name": "Systolic blood pressure (Morning) time 1",
+  "description": "First measurement of systolic blood pressure in morning",
+  "type": "numeric",
+  "units": "millimeters of mercury"
 }

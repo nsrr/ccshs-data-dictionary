@@ -1,6 +1,7 @@
 {
   "id": "msnackfat",
-  "display_name": "Nutrition: Mean fat from snacks per day (g)",
+  "display_name": "Mean fat from snacks per day",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "grams per day"
 }

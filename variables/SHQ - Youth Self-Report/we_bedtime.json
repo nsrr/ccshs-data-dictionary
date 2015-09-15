@@ -1,6 +1,7 @@
 {
   "id": "we_bedtime",
-  "display_name": "SHQY: Self-reported Bedtime (Weekend)",
+  "display_name": "Self-reported bedtime (Weekend)",
   "description": "",
-  "type": null
+  "type": "time",
+  "units": ""
 }

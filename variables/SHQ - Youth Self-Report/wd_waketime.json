@@ -1,6 +1,7 @@
 {
   "id": "wd_waketime",
-  "display_name": "SHQY: Self-reported Wake Time (Weekday)",
+  "display_name": "Self-reported wake time (Weekday)",
   "description": "",
-  "type": null
+  "type": "time",
+  "units": ""
 }

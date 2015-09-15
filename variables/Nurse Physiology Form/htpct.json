@@ -1,6 +1,7 @@
 {
   "id": "htpct",
-  "display_name": "Height %ile (from CDC) for age, gender",
+  "display_name": "Height percentile (from CDC) for age, gender",
   "description": "Age- and gender-specific height z-score based on CDC norms",
-  "type": null
+  "type": "numeric",
+  "units": "percent"
 }

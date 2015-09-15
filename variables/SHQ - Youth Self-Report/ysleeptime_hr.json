@@ -1,6 +1,7 @@
 {
   "id": "ysleeptime_hr",
-  "display_name": "SHQY: sleep time from self-reported bed and wake times in hours (all days)",
+  "display_name": "Sleep time from self-reported bed and wake times in hours (all days)",
   "description": "Calculated as a weighted average of self-reported sleep time from weekdays and from weekends (ysleeptime_hr  = 5/7 *wd_slpdur_hr  + 2/7*we_slpdur_hr)",
-  "type": null
+  "type": "numeric",
+  "units": "hours"
 }

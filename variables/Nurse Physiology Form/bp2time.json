@@ -1,6 +1,7 @@
 {
   "id": "bp2time",
-  "display_name": "Blood Pressure: Time of Morning collection",
+  "display_name": "Time of Morning collection",
   "description": "Time of morning blood pressure colleciton",
-  "type": null
+  "type": "time",
+  "units": ""
 }

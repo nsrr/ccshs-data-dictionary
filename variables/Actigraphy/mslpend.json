@@ -1,6 +1,7 @@
 {
   "id": "mslpend",
-  "display_name": "Actigraphy: Mean sleep time - weekend nights (minutes)",
+  "display_name": "Mean sleep time - weekend nights",
   "description": "",
-  "type": null
+  "type": "numeric",
+  "units": "minutes"
 }

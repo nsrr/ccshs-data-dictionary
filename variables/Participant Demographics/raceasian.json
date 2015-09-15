@@ -2,5 +2,6 @@
   "id": "raceasian",
   "display_name": "Asian Race",
   "description": "",
-  "type": null
+  "type": "choices",
+  "domain": "checked"
 }
