@@ -1,7 +1,0 @@
-{
-  "id": "race",
-  "display_name": "Race",
-  "description": "(1=white,2=black,3=asian,4=native american,5=pacific islander,6=multiple races)",
-  "type": "choices",
-  "domain": "race"
-}

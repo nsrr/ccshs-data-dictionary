@@ -1,7 +1,0 @@
-{
-  "id": "personid",
-  "display_name": "PersonID",
-  "description": "Person ID",
-  "type": "string",
-  "units": ""
-}
