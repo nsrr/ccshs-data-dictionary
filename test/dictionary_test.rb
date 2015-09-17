@@ -10,8 +10,8 @@ class DictionaryTest < Minitest::Test
 
  # Example 1: Create custom tests to show that `integer` and `numeric` variables have a valid unit type
   VALID_UNITS = ["", "beats per minute", "centimeters", "nights", "minutes per week", "grams per day", "kilocalories per day",
-    "days", "drinks", "hours", "kilograms per square centimeter",
-    "kilograms", "kilograms per square meter", "millimeters of mercury", "minutes",
+    "days", "drinks", "hours",
+    "kilograms", "kilograms per meters squared", "millimeters of mercury", "minutes",
     "percent", "years", "snacks", "meals", "arousals per hour"]
 
   @variables.select{|v| ['numeric','integer'].include?(v.type)}.each do |variable|

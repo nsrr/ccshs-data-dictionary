@@ -1,0 +1,18 @@
+[
+  {
+    "value": "1",
+    "display_name": "Below 85th percentile",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Between 85th and 95th percentile",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "95th percentile or above",
+    "description": ""
+  }
+]
+

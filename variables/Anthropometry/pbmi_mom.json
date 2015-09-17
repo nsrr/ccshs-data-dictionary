@@ -3,5 +3,5 @@
   "display_name": "Body Mass Index of mom",
   "description": "",
   "type": "numeric",
-  "units": "kilograms per square meter"
+  "units": "kilograms per meters squared"
 }

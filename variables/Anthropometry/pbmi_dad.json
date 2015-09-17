@@ -3,5 +3,5 @@
   "display_name": "Body Mass Index of dad",
   "description": "",
   "type": "numeric",
-  "units": "kilograms per square meter"
+  "units": "kilograms per meters squared"
 }

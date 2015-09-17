@@ -1,0 +1,7 @@
+{
+  "id": "bmicat",
+  "display_name": "BMI category",
+  "description": "Categories of BMI based on BMI Percentile",
+  "type": "choices",
+  "domain": "bmicat"
+}
