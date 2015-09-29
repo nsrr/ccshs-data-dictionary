@@ -3,5 +3,5 @@
   "display_name": "Mean sleep efficiency - weekend nights",
   "description": "",
   "type": "numeric",
-  "units": "minutes"
+  "units": "percent"
 }
