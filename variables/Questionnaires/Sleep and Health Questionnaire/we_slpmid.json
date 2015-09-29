@@ -2,6 +2,6 @@
   "id": "we_slpmid",
   "display_name": "Midpoint of time in bed from self report (Weekend)",
   "description": "Calculated as the midpoint between self-reported weekend wake time and self-reported weekend bed time.",
-  "type": "numeric",
+  "type": "time",
   "units": ""
 }
