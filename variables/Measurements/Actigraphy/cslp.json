@@ -1,7 +1,7 @@
 {
   "id": "cslp",
-  "display_name": "CV sleep time - all nights",
+  "display_name": "Coefficient of variation- sleep time - all nights",
   "description": "",
-  "type": "time",
+  "type": "numeric",
   "units": ""
 }

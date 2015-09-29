@@ -3,5 +3,5 @@
   "display_name": "Sleep time from self-reported usual sleep time (Weekend)",
   "description": "Calculated from self report of hours and minutes spent asleep (ywe_slpdur = (yweslhr * 60) + yweslmn)",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

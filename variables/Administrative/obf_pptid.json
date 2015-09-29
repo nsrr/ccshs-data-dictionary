@@ -2,5 +2,6 @@
   "id": "obf_pptid",
   "display_name": "Obfuscated Participant ID",
   "description": "This participant ID was created by the NSRR team to more easily match with file downloads.",
-  "type": "identifier"
+  "type": "identifier",
+  "commonly_used": true
 }

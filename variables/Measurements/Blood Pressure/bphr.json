@@ -3,5 +3,6 @@
   "display_name": "Heart Rate (mean of 6 measurements)",
   "description": "Blood pressure is collected six times, three measurements in the evening and three in the morning. This is the mean of the heart rate measurements at each time point.",
   "type": "numeric",
-  "units": "beats per minute"
+  "units": "beats per minute",
+  "commonly_used": true
 }

@@ -2,6 +2,6 @@
   "id": "wd_slpmid",
   "display_name": "Midpoint of time in bed from self report (Weekday)",
   "description": "Calculated as the midpoint between self-reported weekday wake time and self-reported weekday bed time.",
-  "type": "numeric",
+  "type": "time",
   "units": ""
 }

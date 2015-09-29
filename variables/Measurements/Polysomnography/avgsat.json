@@ -1,7 +1,8 @@
 {
   "id": "avgsat",
-  "display_name": "Calculated - avgerage oxygen saturation in sleep",
+  "display_name": "Calculated - average oxygen saturation in sleep",
   "description": "Average oxygen saturation during sleep  [Mean(all SaO2 values in sleep)]",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "commonly_used": true
 }

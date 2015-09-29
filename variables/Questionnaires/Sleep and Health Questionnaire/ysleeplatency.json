@@ -3,5 +3,5 @@
   "display_name": "Self-reported sleep latency",
   "description": "Calculated from self report of hours and minutes it takes to fall asleep (ysleeplatency = (yflashr * 60) + yflasmn)",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }

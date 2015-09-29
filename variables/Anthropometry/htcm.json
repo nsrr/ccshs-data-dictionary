@@ -3,5 +3,6 @@
   "display_name": "Height",
   "description": "Height in centimeters",
   "type": "numeric",
-  "units": "centimeters"
+  "units": "centimeters",
+  "commonly_used": true
 }
