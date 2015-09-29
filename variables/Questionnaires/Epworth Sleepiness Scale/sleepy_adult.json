@@ -2,6 +2,6 @@
   "id": "sleepy_adult",
   "display_name": "Based on Adult ESS Score >= 11",
   "description": "",
-  "type": "numeric",
-  "units": ""
+  "type": "choices",
+  "domain": "yesno"
 }
