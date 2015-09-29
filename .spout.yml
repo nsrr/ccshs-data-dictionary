@@ -1,7 +1,13 @@
 ---
 slug: ccshs
 visit: visit
-charts: []
+charts:
+- chart: age
+  title: Age
+- chart: male
+  title: Gender
+- chart: race3
+  title: Race
 webservers:
   - name: production
     url: https://sleepdata.org
