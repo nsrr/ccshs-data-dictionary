@@ -2,6 +2,6 @@
   "id": "waistgt90",
   "display_name": "Waist circumference > 90th percentile for age, gender",
   "description": "Based on Fernandez pediatric waist circumference percentiles",
-  "type": "numeric",
-  "units": ""
+  "type": "choices",
+  "domain": "yesno"
 }
