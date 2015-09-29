@@ -3,5 +3,5 @@
   "display_name": "Sleep time from self-reported usual sleep time (all days)",
   "description": "Calculated as a weighted average of self-reported usual sleep time from weekdays and from weekends (ysleeptime_s = 5/7 * ywd_slpdur  + 2/7*ywe_slpdur )",
   "type": "numeric",
-  "units": ""
+  "units": "minutes"
 }
