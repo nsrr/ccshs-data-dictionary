@@ -6,5 +6,5 @@
 - Removed variables, where appropriate
 - Added visit variable
 - The CSV datasets generated from a SAS export is located here:
-  - `\\rfa01\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\0.1.0.rc2\`
-    - `ccshs-dataset-0.1.0.rc2.csv`
+  - `\\rfa01\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\0.1.0.rc3\`
+    - `ccshs-dataset-0.1.0.rc3.csv`

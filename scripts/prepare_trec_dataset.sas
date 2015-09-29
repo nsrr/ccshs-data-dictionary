@@ -14,7 +14,7 @@ libname nsrrdata "&newtrecpath\nsrr-prep\_datasets";
 
 libname obf "&newtrecpath\nsrr-prep\_ids";
 
-%let release = 0.1.0.beta2;
+%let release = 0.1.0.rc3;
 
 ********************************************************;
 * Import TREC data
