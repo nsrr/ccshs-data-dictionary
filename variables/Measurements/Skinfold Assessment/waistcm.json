@@ -3,5 +3,6 @@
   "display_name": "Skinfold: Waist circumference",
   "description": "Mean of 2 measurements",
   "type": "numeric",
-  "units": "centimeters"
+  "units": "centimeters",
+  "commonly_used": true
 }

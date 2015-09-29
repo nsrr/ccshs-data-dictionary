@@ -3,5 +3,6 @@
   "display_name": "Ethnicity",
   "description": "(1=hispanic or latino, 2=not)",
   "type": "choices",
-  "domain": "ethnicity"
+  "domain": "ethnicity",
+  "commonly_used": true
 }
