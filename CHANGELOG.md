@@ -1,6 +1,7 @@
 ## 0.2.0
 
-- Change various variable types
+- Change various variable types (e.g. dichotomous BMI percentile)
+- Shorten lengthy display names and add more description to others
 
 ## 0.1.0 (October 1, 2015)
 

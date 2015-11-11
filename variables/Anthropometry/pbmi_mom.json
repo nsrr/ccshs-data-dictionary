@@ -1,6 +1,6 @@
 {
   "id": "pbmi_mom",
-  "display_name": "Body Mass Index of mom",
+  "display_name": "Body Mass Index (BMI) of Subject's Mother",
   "description": "",
   "type": "numeric",
   "units": "kilograms per meters squared"
