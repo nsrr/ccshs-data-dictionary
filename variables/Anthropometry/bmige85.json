@@ -1,7 +1,7 @@
 {
   "id": "bmige85",
-  "display_name": "BMI >= 85th percentile",
-  "description": "BMI percentile >= 85",
+  "display_name": "Body Mass Index (BMI) >= 85th percentile",
+  "description": "",
   "type": "choices",
   "domain": "yesno"
 }
