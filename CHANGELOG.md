@@ -2,6 +2,7 @@
 
 - Change various variable types (e.g. dichotomous BMI percentile)
 - Shorten lengthy display names and add more description to others
+- Add EEG Spectral Analysis datasets and variables
 
 ## 0.1.0 (October 1, 2015)
 
