@@ -1,6 +1,6 @@
 {
   "id": "timerem",
-  "display_name": "Calculated - time rem minutes",
+  "display_name": "Time REM minutes",
   "description": "Total time scored as REM rounded to nearest minute",
   "type": "numeric",
   "units": "minutes"
