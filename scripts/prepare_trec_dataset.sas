@@ -14,7 +14,7 @@ libname nsrrdata "&newtrecpath\nsrr-prep\_datasets";
 
 libname obf "&newtrecpath\nsrr-prep\_ids";
 
-%let release = 0.1.0;
+%let release = 0.2.0.beta1;
 
 ********************************************************;
 * Import TREC data
@@ -28,6 +28,29 @@ run;
 
 data trec_out;
   set trec_in;
+
+  *clean SAS missing codes out of numeric variables;
+  if bp1dias1 in ("M","N","I") then bp1dias1 = "";
+  if bp1dias2 in ("M","N","I") then bp1dias2 = "";
+  if bp1dias3 in ("M","N","I") then bp1dias3 = "";
+  if bp1hr1 in ("M","N","I") then bp1hr1 = "";
+  if bp1hr2 in ("M","N","I") then bp1hr2 = "";
+  if bp1hr3 in ("M","N","I") then bp1hr3 = "";
+  if bp1sys1 in ("M","N","I") then bp1sys1 = "";
+  if bp1sys2 in ("M","N","I") then bp1sys2 = "";
+  if bp1sys3 in ("M","N","I") then bp1sys3 = "";
+  if bp1time in ("M","N","I") then bp1time = "";
+  if bp2dias1 in ("M","N","I") then bp2dias1 = "";
+  if bp2dias2 in ("M","N","I") then bp2dias2 = "";
+  if bp2dias3 in ("M","N","I") then bp2dias3 = "";
+  if bp2hr1 in ("M","N","I") then bp2hr1 = "";
+  if bp2hr2 in ("M","N","I") then bp2hr2 = "";
+  if bp2hr3 in ("M","N","I") then bp2hr3 = "";
+  if bp2sys1 in ("M","N","I") then bp2sys1 = "";
+  if bp2sys2 in ("M","N","I") then bp2sys2 = "";
+  if bp2sys3 in ("M","N","I") then bp2sys3 = "";
+  if bp2time in ("M","N","I") then bp2time = "";
+  if sleepy_adult in ("M","N","I") then sleepy_adult = "";
 
   *variable list taken from TREC covariates indicator in Excel data dictionary;
   keep
@@ -55,7 +78,6 @@ data trec_out;
     male
     age
     race
-    nmiss
     essscore
     sleepy
     nmiss_adult
@@ -74,7 +96,6 @@ data trec_out;
     bp1sys3
     bp1dias3
     bp1hr3
-    bp1tech
     bp2sys1
     bp2dias1
     bp2hr1
@@ -84,7 +105,6 @@ data trec_out;
     bp2sys3
     bp2dias3
     bp2hr3
-    bp2tech
     bp1time
     bp2time
     bpsys
@@ -182,32 +202,6 @@ data trec_out;
     waistgt90
     waistge90
 ;
-    *clean SAS missing codes out of numeric variables;
-    if bp1dias1 in ("M","N","I") then bp1dias1 = "";
-    if bp1dias2 in ("M","N","I") then bp1dias2 = "";
-    if bp1dias3 in ("M","N","I") then bp1dias3 = "";
-    if bp1hr1 in ("M","N","I") then bp1hr1 = "";
-    if bp1hr2 in ("M","N","I") then bp1hr2 = "";
-    if bp1hr3 in ("M","N","I") then bp1hr3 = "";
-    if bp1sys1 in ("M","N","I") then bp1sys1 = "";
-    if bp1sys2 in ("M","N","I") then bp1sys2 = "";
-    if bp1sys3 in ("M","N","I") then bp1sys3 = "";
-    if bp1tech in ("M","N","I") then bp1tech = "";
-    if bp1time in ("M","N","I") then bp1time = "";
-    if bp2dias1 in ("M","N","I") then bp2dias1 = "";
-    if bp2dias2 in ("M","N","I") then bp2dias2 = "";
-    if bp2dias3 in ("M","N","I") then bp2dias3 = "";
-    if bp2hr1 in ("M","N","I") then bp2hr1 = "";
-    if bp2hr2 in ("M","N","I") then bp2hr2 = "";
-    if bp2hr3 in ("M","N","I") then bp2hr3 = "";
-    if bp2sys1 in ("M","N","I") then bp2sys1 = "";
-    if bp2sys2 in ("M","N","I") then bp2sys2 = "";
-    if bp2sys3 in ("M","N","I") then bp2sys3 = "";
-    if bp2tech in ("M","N","I") then bp2tech = "";
-    if bp2time in ("M","N","I") then bp2time = "";
-    if sleepy_adult in ("M","N","I") then sleepy_adult = "";
-
-    drop nmiss bp1tech bp2tech;
 run;
 
 
