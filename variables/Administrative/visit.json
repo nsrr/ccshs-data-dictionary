@@ -1,7 +1,7 @@
 {
 	"id": "visit",
 	"display_name": "Visit",
-	"description": "",
+	"description": "CCSHS conducted three visits (Peds, Teenz, and TREC) over a span of more than 20 years.",
 	"type": "choices",
 	"domain": "visit-d",
   "commonly_used": true
