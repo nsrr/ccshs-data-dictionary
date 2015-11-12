@@ -1,7 +1,7 @@
 {
   "id": "timest2",
-  "display_name": "Calculated - time stage 2 minutes",
-  "description": "Total time scored as stage 2 rounded to nearest minute",
+  "display_name": "Time in Stage 2 sleep",
+  "description": "",
   "type": "numeric",
   "units": "minutes"
 }

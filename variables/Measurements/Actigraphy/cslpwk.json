@@ -1,7 +1,7 @@
 {
   "id": "cslpwk",
-  "display_name": "Coefficient of variation- sleep time - weekday nights",
+  "display_name": "Coefficient of variation - sleep time - weekday nights",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "units": "percent"
 }

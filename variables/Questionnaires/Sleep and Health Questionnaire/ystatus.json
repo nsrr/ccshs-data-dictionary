@@ -2,6 +2,6 @@
   "id": "ystatus",
   "display_name": "Rate socioeconomic standing based on ladder",
   "description": "",
-  "type": "numeric",
+  "type": "integer",
   "units": ""
 }

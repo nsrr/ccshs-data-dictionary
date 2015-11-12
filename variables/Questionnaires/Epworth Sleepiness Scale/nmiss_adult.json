@@ -2,6 +2,6 @@
   "id": "nmiss_adult",
   "display_name": "Number of missing items on adult ESS (items 1-7, 9)",
   "description": "",
-  "type": "numeric",
+  "type": "integer",
   "units": ""
 }

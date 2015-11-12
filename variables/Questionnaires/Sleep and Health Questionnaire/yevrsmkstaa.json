@@ -2,6 +2,6 @@
   "id": "yevrsmkstaa",
   "display_name": "Age when started smoking regularly",
   "description": "",
-  "type": "numeric",
+  "type": "integer",
   "units": "years"
 }

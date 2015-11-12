@@ -1,7 +1,7 @@
 {
   "id": "pctlt70",
-  "display_name": "Calculated - percent time < 70% desaturation",
-  "description": "Percent of sleep time with oxygen saturation < 70%.  Ratio of the number of minutes with oxygen saturation under 70% to the total sleep time expressed in hours.  [100*(Total Number of minutes with SaO2 < 70) / (total sleep time)]",
+  "display_name": "Percent of sleep time <70% oxygen saturation",
+  "description": "",
   "type": "numeric",
   "units": "percent"
 }

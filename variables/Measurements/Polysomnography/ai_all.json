@@ -1,6 +1,6 @@
 {
   "id": "ai_all",
-  "display_name": "Calculated - Overall arousal index",
+  "display_name": "Overall arousal index",
   "description": "Total number of arousals per hour of sleep.  Ratio of count of arousals to total sleep time in hours.   [(Total number of arousals) / (hours of sleep)]",
   "type": "numeric",
   "units": "arousals per hour",

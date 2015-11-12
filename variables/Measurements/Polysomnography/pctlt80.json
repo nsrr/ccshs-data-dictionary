@@ -1,7 +1,7 @@
 {
   "id": "pctlt80",
-  "display_name": "Calculated - percent time < 80% desaturation",
-  "description": "Percent of sleep time with oxygen saturation < 80%  [100*(Total Number of minutes with oxygen saturation < 80) / (total sleep time)]",
+  "display_name": "Percent of sleep time <80% oxygen saturation",
+  "description": "",
   "type": "numeric",
   "units": "percent"
 }
