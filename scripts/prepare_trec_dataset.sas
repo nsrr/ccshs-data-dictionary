@@ -243,6 +243,9 @@ data trec_final;
   else if race = 2 then race3 = 2;
   else if race ne . then race3 = 3;
 
+  *add visit variable;
+  visit = 3;
+
   *only keep obf_pptid in final dataset;
   drop personid racewhite -- raceamerind race;
 run;
