@@ -1,7 +1,7 @@
 {
   "id": "race3",
   "display_name": "Race",
-  "description": "",
+  "description": "Race was collapsed into these three categories to match other NSRR datasets",
   "type": "choices",
   "domain": "race3",
   "commonly_used": true

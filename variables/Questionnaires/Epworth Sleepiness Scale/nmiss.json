@@ -1,7 +1,0 @@
-{
-  "id": "nmiss",
-  "display_name": "Number of missing items on modified ESS (1-8)",
-  "description": "",
-  "type": "numeric",
-  "units": ""
-}

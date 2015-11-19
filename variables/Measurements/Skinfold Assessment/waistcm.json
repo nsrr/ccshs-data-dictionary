@@ -1,7 +1,7 @@
 {
   "id": "waistcm",
-  "display_name": "Skinfold: Waist circumference",
-  "description": "Mean of 2 measurements",
+  "display_name": "Waist circumference",
+  "description": "Mean of two measurements",
   "type": "numeric",
   "units": "centimeters",
   "commonly_used": true

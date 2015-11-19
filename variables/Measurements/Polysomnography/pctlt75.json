@@ -1,7 +1,7 @@
 {
   "id": "pctlt75",
-  "display_name": "Calculated - percent time < 75% desaturation",
-  "description": "Percent of sleep time with oxygen saturation < 75%  [100*(Total Number of minutes with SaO2 < 75) / (total sleep time)]",
+  "display_name": "Percent of sleep time <75% oxygen saturation",
+  "description": "",
   "type": "numeric",
   "units": "percent"
 }

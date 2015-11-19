@@ -1,7 +1,7 @@
 {
   "id": "oahi3",
-  "display_name": "Calculated - Obstructive apnea (all desaturations) Hypopnea (3% desaturation) Index",
-  "description": "Obstructive Apnea Hypopnea Index at 3% desaturation.  Ratio of the count of all obstructive apneas plus the count of hypopneas associated with at least a 3% oxygen desaturation to the total sleep time expressed in hours.",
+  "display_name": "Obstructive Apnea-Hypopnea (3% desaturation) Index",
+  "description": "Obstructive Apnea (all desaturations) and Hypopnea (3% desaturation) Index .  Ratio of the count of all obstructive apneas plus the count of hypopneas associated with at least a 3% oxygen desaturation to the total sleep time expressed in hours.",
   "type": "numeric",
-  "units": ""
+  "units": "events per hour"
 }

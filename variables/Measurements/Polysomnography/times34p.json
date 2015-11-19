@@ -1,7 +1,7 @@
 {
   "id": "times34p",
-  "display_name": "Calculated - percent time stage 3-4",
-  "description": "Percent of sleep time in stage 3-4 [100*(Number of minutes scored as stage 3-4) / (total sleep time)]",
+  "display_name": "Percent of sleep time in Stage 3-4",
+  "description": "",
   "type": "numeric",
   "units": "percent"
 }

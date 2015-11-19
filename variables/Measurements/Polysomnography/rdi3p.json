@@ -1,7 +1,7 @@
 {
   "id": "rdi3p",
-  "display_name": "Calculated - Overall RDI at 3% desaturation",
-  "description": "Respiratory Disturbance Index at 3% desaturation.  Ratio of the count of all apneas (central and obstructive) and hypopneas associated with at least a 3% oxygen desaturation to the total sleep time expressed in hours.",
+  "display_name": "Overall Respiratory Disturbance (3% desaturation) Index",
+  "description": "Ratio of the count of all apneas (central and obstructive) and hypopneas associated with at least a 3% oxygen desaturation to the total sleep time expressed in hours.",
   "type": "numeric",
   "units": "",
   "commonly_used": true

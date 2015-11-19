@@ -1,6 +1,6 @@
 {
   "id": "age",
-  "display_name": "Age at time of TREC visit",
+  "display_name": "Age at time of visit",
   "description": "",
   "type": "numeric",
   "units": "years",

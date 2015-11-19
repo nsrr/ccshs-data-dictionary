@@ -1,6 +1,6 @@
 {
   "id": "ycursmk",
-  "display_name": "Currently Smoke Regularly",
+  "display_name": "Currently smoke regularly",
   "description": "",
   "type": "choices",
   "domain": "yesno"

@@ -1,7 +1,7 @@
 {
   "id": "bmi",
-  "display_name": "BMI (kg/m^2): calculated body mass index",
-  "description": "Body Mass Index (ratio of weight in kg to the square of height in meters)",
+  "display_name": "Body Mass Index (BMI)",
+  "description": "",
   "type": "numeric",
   "units": "kilograms per meters squared",
   "commonly_used": true

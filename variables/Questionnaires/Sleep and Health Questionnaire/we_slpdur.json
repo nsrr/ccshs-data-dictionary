@@ -1,6 +1,6 @@
 {
   "id": "we_slpdur",
-  "display_name": "Sleep time from self-reported bed and wake times in minutes (Weekend)",
+  "display_name": "Self-reported weekend sleep time",
   "description": "Calculated as the difference between self-reported weekend wake time and self-reported weekend bed time.",
   "type": "numeric",
   "units": "minutes"

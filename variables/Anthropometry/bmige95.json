@@ -1,7 +1,7 @@
 {
   "id": "bmige95",
-  "display_name": "BMI >= 95th percentile",
-  "description": "BMI percentile >= 95",
-  "type": "numeric",
-  "units": ""
+  "display_name": "Body Mass Index (BMI) >= 95th percentile",
+  "description": "",
+  "type": "choices",
+  "domain": "yesno"
 }

@@ -12,7 +12,7 @@ class DictionaryTest < Minitest::Test
   VALID_UNITS = ["", "beats per minute", "centimeters", "nights", "minutes per week", "grams per day", "kilocalories per day",
     "days", "drinks", "hours",
     "kilograms", "kilograms per meters squared", "millimeters of mercury", "minutes",
-    "percent", "years", "snacks", "meals", "arousals per hour"]
+    "percent", "years", "snacks", "meals", "arousals per hour", "events per hour", "microvolts squared per hertz", "hertz"]
 
   @variables.select{|v| ['numeric','integer'].include?(v.type)}.each do |variable|
     define_method("test_units: "+variable.path) do

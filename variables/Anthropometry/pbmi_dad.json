@@ -1,6 +1,6 @@
 {
   "id": "pbmi_dad",
-  "display_name": "Body Mass Index of dad",
+  "display_name": "Body Mass Index (BMI) of Subject's Father",
   "description": "",
   "type": "numeric",
   "units": "kilograms per meters squared"
