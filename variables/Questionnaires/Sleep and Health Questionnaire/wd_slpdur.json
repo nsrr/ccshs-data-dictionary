@@ -3,5 +3,8 @@
   "display_name": "Self-reported weekday sleep time",
   "description": "Calculated as the difference between self-reported weekday wake time and self-reported weekday bed time.",
   "type": "numeric",
-  "units": "minutes"
+  "units": "minutes",
+"forms": [
+    "ccshs_sleep_and_health_questionnaire_form"
+  ]
 }

@@ -4,5 +4,9 @@
   "description": "",
   "type": "numeric",
   "units": "kilograms",
-  "commonly_used": true
+  "commonly_used": true,
+"forms": [
+    "ccshs_lab_physiology_child_form",
+    "ccshs_lab_physiology_parent_form"
+  ]
 }
