@@ -1,5 +1,6 @@
 ## 0.2.1
 
+- Fixed domain naming convention for `visit_d`
 - **Gem Changes**
   - Updated to spout 0.11.0.beta1
 
