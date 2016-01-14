@@ -1,3 +1,8 @@
+## 0.2.1
+
+- **Gem Changes**
+  - Updated to spout 0.11.0.beta1
+
 ## 0.2.0 (November 19, 2015)
 
 - Change various variable types (e.g. dichotomous BMI percentile)
