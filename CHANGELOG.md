@@ -1,3 +1,5 @@
+## 0.1.1
+
 ## 0.1.0 (October 1, 2015)
 
 - Improved display names of variables
