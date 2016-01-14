@@ -1,5 +1,7 @@
 ## 0.1.1
 
+- Backporting updates to be compatible with Spout 0.11.0.beta1
+
 ## 0.1.0 (October 1, 2015)
 
 - Improved display names of variables
