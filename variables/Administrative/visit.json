@@ -3,6 +3,6 @@
 	"display_name": "Visit",
 	"description": "",
 	"type": "choices",
-	"domain": "visit-d",
+	"domain": "visit_d",
   "commonly_used": true
 }
