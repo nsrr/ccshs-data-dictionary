@@ -2,6 +2,7 @@
 
 - Fixed domain naming convention for `visit_d`
 - **Gem Changes**
+  - Updated to ruby 2.3.0
   - Updated to spout 0.11.0.rc
 
 ## 0.2.0 (November 19, 2015)
