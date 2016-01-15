@@ -1,7 +1,7 @@
 ## 0.1.1
 
 - Fixed domain naming convention for `visit_d`
-- Backporting updates to be compatible with Spout 0.11.0.beta1
+- Backporting updates to be compatible with Spout 0.11.0.rc
 
 ## 0.1.0 (October 1, 2015)
 
