@@ -4,5 +4,15 @@
   "description": "Total time from lights out to lights on that is scored as sleep (rounded to nearest minute)",
   "type": "numeric",
   "units": "minutes",
+  "labels": [
+    "non-rem",
+    " non rem",
+    "non-rapid eye movement",
+    "non rapid",
+    "nrem",
+    "psg",
+    "rem",
+    "rapid eye movement"
+  ],
   "commonly_used": true
 }

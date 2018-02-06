@@ -3,5 +3,8 @@
   "display_name": "Heart rate (Evening) time 3",
   "description": "Third measurement of heart rate in evening",
   "type": "numeric",
-  "units": "beats per minute"
+  "units": "beats per minute",
+  "labels": [
+    "bpm"
+  ]
 }

@@ -1,8 +1,19 @@
 {
   "id": "rdi3p",
-  "display_name": "Overall Respiratory Disturbance (3% desaturation) Index",
-  "description": "Ratio of the count of all apneas (central and obstructive) and hypopneas associated with at least a 3% oxygen desaturation to the total sleep time expressed in hours.",
+  "display_name": "Overall Respiratory Disturbance Index (RDI) at >=3% oxygen desaturation",
+  "description": "[(total number of apneas and hypopneas associated with >= 3% oxygen desaturation) / (hours of sleep)]",
   "type": "numeric",
-  "units": "",
+  "calculation": "60 * ( hrembp3 + hrop3 + hnrbp3 + hnrop3 + carbp3 + carop3 + canbp3 + canop3 + oarbp3 + oarop3 + oanbp3 + oanop3 ) / slpprdp",
+  "labels": [
+    "psg",
+    "non-rem",
+    " non rem",
+    "%",
+    "non-rapid eye movement",
+    "non rapid",
+    "nrem",
+    "rem",
+    "rapid eye movement"
+  ],
   "commonly_used": true
 }

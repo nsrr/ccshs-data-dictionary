@@ -3,5 +3,8 @@
   "display_name": "Mean sleep time - weekday nights",
   "description": "",
   "type": "numeric",
-  "units": "minutes"
+  "units": "minutes",
+  "labels": [
+    "min"
+  ]
 }

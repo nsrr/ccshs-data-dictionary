@@ -1,0 +1,7 @@
+{
+  "id": "nsrrid",
+  "display_name": "National Sleep Research Resource (NSRR) subject ID",
+  "description": "This participant ID was created by the National Sleep Research Resource (NSRR) team to more easily match with file downloads.",
+  "type": "identifier",
+  "commonly_used": true
+}

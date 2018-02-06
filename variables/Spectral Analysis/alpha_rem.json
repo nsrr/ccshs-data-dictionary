@@ -1,7 +1,15 @@
 {
   "id": "alpha_rem",
-  "display_name": "Alpha power density in REM sleep",
+  "display_name": "Alpha power density in rapid eye movement sleep (REM)",
   "description": "",
   "type": "numeric",
-  "units": "microvolts squared per hertz"
+  "units": "microvolts squared per hertz",
+  "labels": [
+    "uv2/hz",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+  ]
 }

@@ -1,7 +1,6 @@
 {
   "id": "bp1time",
   "display_name": "Time of evening collection",
-  "description": "Time of evening blood pressure colleciton",
-  "type": "time",
-  "units": ""
+  "description": "Time of evening blood pressure (BP) collection",
+  "type": "time"
 }

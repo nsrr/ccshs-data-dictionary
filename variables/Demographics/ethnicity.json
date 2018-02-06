@@ -4,5 +4,8 @@
   "description": "",
   "type": "choices",
   "domain": "ethnicity",
+  "labels": [
+    "children's health questionnaire"
+  ],
   "commonly_used": true
 }

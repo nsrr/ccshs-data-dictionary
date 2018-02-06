@@ -3,5 +3,18 @@
   "display_name": "Delta power density in sleep",
   "description": "",
   "type": "numeric",
-  "units": "microvolts squared per hertz"
+  "units": "microvolts squared per hertz",
+  "labels": [
+    "non-rem",
+    "non rem",
+    "non rapid",
+    "non-rapid eye movement",
+    "non rapid",
+    "nrem",
+    "uv2/hz",
+    "1",
+    "2",
+    "3",
+    "4"
+  ]
 }

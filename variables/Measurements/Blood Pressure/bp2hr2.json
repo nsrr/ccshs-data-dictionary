@@ -3,5 +3,8 @@
   "display_name": "Heart rate (Morning) time 2",
   "description": "Second measurement of heart rate in morning",
   "type": "numeric",
-  "units": "beats per minute"
+  "units": "beats per minute",
+  "labels": [
+    "bpm"
+  ]
 }

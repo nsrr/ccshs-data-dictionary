@@ -3,5 +3,19 @@
   "display_name": "Alpha power density in sleep",
   "description": "",
   "type": "numeric",
-  "units": "microvolts squared per hertz"
+  "units": "microvolts squared per hertz",
+  "labels": [
+    "non-rem",
+    "non rem",
+    "non rapid",
+    "non-rapid eye movement",
+    "non rapid",
+    "nrem",
+    "uv2/hz",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+  ]
 }

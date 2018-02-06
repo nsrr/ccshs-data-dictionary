@@ -1,7 +1,15 @@
 {
   "id": "timest1",
   "display_name": "Time in Stage 1 sleep",
-  "description": "",
+  "description": "Total time scored as stage 1 sleep rounded to nearest minute",
   "type": "numeric",
-  "units": "minutes"
+  "units": "minutes",
+  "labels": [
+    "psg",
+    "non-rem",
+    "non rem",
+    "nrem",
+    "non-rapid eye movement sleep",
+    "non rapid"
+  ]
 }

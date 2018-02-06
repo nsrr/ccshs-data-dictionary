@@ -1,7 +1,16 @@
 {
   "id": "timest2p",
-  "display_name": "Percent of sleep time in Stage 2",
-  "description": "",
+  "display_name": "Percent of sleep time in Stage 2 sleep",
+  "description": "[100*(number of minutes scored as stage 2 sleep)/(total sleep time)]",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "psg",
+    "non-rem",
+    "non rem",
+    "nrem",
+    "non-rapid eye movement sleep",
+    "non rapid",
+    "%"
+  ]
 }

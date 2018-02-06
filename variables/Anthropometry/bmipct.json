@@ -1,7 +1,10 @@
 {
   "id": "bmipct",
-  "display_name": "BMI percentile (from CDC) for age, gender",
-  "description": "Age- and gender-specific BMI percentile based on CDC norms",
+  "display_name": "Body Mass Index (BMI) percentile (from the Centers for Disease Control and Prevention (CDC)) for age, gender",
+  "description": "Age- and gender-specific Body Mass Index (BMI) percentile based on the Centers for Disease Control and Prevention (CDC) norms",
   "type": "numeric",
-  "units": ""
+  "labels": [
+    "weight",
+    "height"
+  ]
 }

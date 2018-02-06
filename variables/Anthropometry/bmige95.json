@@ -3,5 +3,9 @@
   "display_name": "Body Mass Index (BMI) >= 95th percentile",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "yesno",
+  "labels": [
+    "weight",
+    "height"
+  ]
 }

@@ -1,7 +1,13 @@
 {
   "id": "alpha_logrem",
-  "display_name": "Log transformed alpha power density in REM sleep",
+  "display_name": "Log transformed alpha power density in rapid eye movement sleep (REM)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "labels": [
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+  ]
 }

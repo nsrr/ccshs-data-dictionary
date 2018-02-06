@@ -3,5 +3,12 @@
   "display_name": "Log transformed slow sigma power density in sleep",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "labels": [
+    "12-13.5",
+    "non-rem",
+    "non rem",
+    "non-rapid eye movement",
+    "non rapid",
+    "nrem"
+  ]
 }

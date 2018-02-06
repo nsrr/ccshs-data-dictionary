@@ -3,5 +3,8 @@
   "display_name": "Mean number of meals per day",
   "description": "",
   "type": "numeric",
-  "units": "meals"
+  "units": "meals",
+  "labels": [
+    "#"
+  ]
 }

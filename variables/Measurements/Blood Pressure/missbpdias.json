@@ -1,7 +1,9 @@
 {
   "id": "missbpdias",
   "display_name": "Number of missing diastolic measurements",
-  "description": "Blood pressure is collected six times, three measurements in the evening and three in the morning.  This is the number of time points missing diastolic blood pressure.",
+  "description": "Blood pressure (BP) is collected six times, three measurements in the evening and three in the morning.  This is the number of time points missing diastolic blood pressure (DBP).",
   "type": "integer",
-  "units": ""
+  "labels": [
+    "#"
+  ]
 }

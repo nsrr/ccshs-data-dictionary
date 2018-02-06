@@ -4,5 +4,9 @@
   "description": "",
   "type": "numeric",
   "units": "years",
+  "labels": [
+    "yrs",
+    "children's health questionnaire"
+  ],
   "commonly_used": true
 }

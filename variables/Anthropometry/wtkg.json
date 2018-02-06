@@ -4,8 +4,12 @@
   "description": "",
   "type": "numeric",
   "units": "kilograms",
+  "labels": [
+    "kg",
+    "wt"
+  ],
   "commonly_used": true,
-"forms": [
+  "forms": [
     "ccshs_lab_physiology_child_form",
     "ccshs_lab_physiology_parent_form"
   ]

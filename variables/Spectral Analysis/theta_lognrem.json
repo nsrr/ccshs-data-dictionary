@@ -1,7 +1,15 @@
 {
   "id": "theta_lognrem",
-  "display_name": "Log transformed theta power density in NREM sleep",
+  "display_name": "Log transformed theta power density in non-rapid eye movement sleep (NREM)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "labels": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "non-rem",
+    "non rem"
+  ]
 }

@@ -1,7 +1,14 @@
 {
   "id": "beta_logrem",
-  "display_name": "Log transformed beta power density in REM sleep",
+  "display_name": "Log transformed beta power density in rapid eye movement sleep (REM)",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "labels": [
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20"
+  ]
 }

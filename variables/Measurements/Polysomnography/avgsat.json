@@ -1,8 +1,20 @@
 {
   "id": "avgsat",
-  "display_name": "Average oxygen saturation in sleep time",
+  "display_name": "Average oxygen saturation (SaO2) in sleep time",
   "description": "",
   "type": "numeric",
   "units": "percent",
+  "calculation": "( ( avsao2nh ) * ( timest1p + timest2p + times34p ) + ( avsao2rh ) * ( timeremp ) ) / 100 ",
+  "labels": [
+    "psg",
+    "non-rem",
+    "non rem",
+    "nrem",
+    "rem",
+    "non-rapid eye movement",
+    "non rapid",
+    "rapid eye movement",
+    "%"
+  ],
   "commonly_used": true
 }

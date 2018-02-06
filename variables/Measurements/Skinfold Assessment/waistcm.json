@@ -4,5 +4,8 @@
   "description": "Mean of two measurements",
   "type": "numeric",
   "units": "centimeters",
+  "labels": [
+    "wc"
+  ],
   "commonly_used": true
 }

@@ -3,5 +3,8 @@
   "display_name": "Mean sleep efficiency - all nights",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "%"
+  ]
 }

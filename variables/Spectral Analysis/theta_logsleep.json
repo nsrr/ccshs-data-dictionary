@@ -3,5 +3,17 @@
   "display_name": "Log transformed theta power density in sleep",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "labels": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "hz",
+    "non-rem",
+    "non rem",
+    "non-rapid eye movement sleep",
+    "non rapid",
+    "nrem"
+  ]
 }

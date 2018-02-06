@@ -3,5 +3,9 @@
   "display_name": "Slow sigma band end",
   "description": "",
   "type": "numeric",
-  "units": "hertz"
+  "units": "hertz",
+  "labels": [
+    "hz",
+    "12-13.5"
+  ]
 }

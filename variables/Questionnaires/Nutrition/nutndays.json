@@ -3,5 +3,8 @@
   "display_name": "Number days of nutrition recall data",
   "description": "",
   "type": "integer",
-  "units": "days"
+  "units": "days",
+  "labels": [
+    "#"
+  ]
 }

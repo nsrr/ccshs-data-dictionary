@@ -3,5 +3,8 @@
   "display_name": "Coefficient of variation - sleep time - weekend nights",
   "description": "",
   "type": "numeric",
-  "units": "percent"
+  "units": "percent",
+  "labels": [
+    "%"
+  ]
 }

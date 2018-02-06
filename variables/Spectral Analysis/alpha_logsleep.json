@@ -3,5 +3,17 @@
   "display_name": "Log transformed alpha power density in sleep",
   "description": "",
   "type": "numeric",
-  "units": ""
+  "labels": [
+    "non-rem",
+    "non rem",
+    "non rapid",
+    "non-rapid eye movement",
+    "non rapid",
+    "nrem",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+  ]
 }

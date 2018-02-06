@@ -4,7 +4,13 @@
   "description": "",
   "type": "integer",
   "units": "drinks",
-"forms": [
+  "labels": [
+    "soda",
+    "pop",
+    "coffee",
+    "tea"
+  ],
+  "forms": [
     "ccshs_sleep_and_health_questionnaire_form"
   ]
 }

@@ -4,7 +4,14 @@
   "description": "",
   "type": "integer",
   "units": "years",
-"forms": [
+  "labels": [
+    "yrs",
+    "cigarettes",
+    "pipe",
+    "bowl",
+    "cigar"
+  ],
+  "forms": [
     "ccshs_sleep_and_health_questionnaire_form"
   ]
 }

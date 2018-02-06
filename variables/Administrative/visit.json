@@ -1,8 +1,8 @@
 {
-	"id": "visit",
-	"display_name": "Visit",
-	"description": "CCSHS conducted three visits (Peds, Teenz, and TREC) over a span of more than 20 years.",
-	"type": "choices",
-	"domain": "visit_d",
+  "id": "visit",
+  "display_name": "Visit",
+  "description": "Cleveland Children's Sleep and Health Study (CCSHS) conducted three visits (Peds, Teenz, and Transdisciplinary Research on Energetics and Cancer (TREC) ) over a span of more than 20 years.",
+  "type": "choices",
+  "domain": "visit_d",
   "commonly_used": true
 }

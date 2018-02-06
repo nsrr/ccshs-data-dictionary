@@ -1,7 +1,11 @@
 {
   "id": "oai0p",
-  "display_name": "Obstructive Apnea (all desaturation) Index ",
+  "display_name": "Obstructive Apnea Index all oxygen desaturations",
   "description": "Obstructive Apnea Index at all desaturations  [(Total number of obstructive apneas associated with all desaturations) / (hours of sleep)]",
   "type": "numeric",
-  "units": "events per hour"
+  "units": "events per hour",
+  "calculation": "60 * ( oarbp +  oarop  + oanbp  + oanop ) / slpprdp",
+  "labels": [
+    "psg"
+  ]
 }

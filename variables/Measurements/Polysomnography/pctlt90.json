@@ -1,8 +1,14 @@
 {
   "id": "pctlt90",
-  "display_name": "Percent of sleep time <90% oxygen saturation",
-  "description": "",
+  "display_name": "Percent of sleep time <90% oxygen saturation (SaO2)",
+  "description": "Ratio of the number of minutes with oxygen saturation (SaO2) under 90% to the total sleep time expressed in hours.",
   "type": "numeric",
   "units": "percent",
+  "labels": [
+    "hypoxia",
+    "hypoxemia",
+    "psg",
+    "oximetry"
+  ],
   "commonly_used": true
 }

@@ -3,5 +3,9 @@
   "display_name": "EEG Signal",
   "description": "",
   "type": "choices",
-  "domain": "signal"
+  "domain": "signal",
+  "labels": [
+    "electroencephalography",
+    "electroencephalogram"
+  ]
 }

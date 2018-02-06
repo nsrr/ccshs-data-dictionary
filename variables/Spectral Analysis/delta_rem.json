@@ -1,7 +1,14 @@
 {
   "id": "delta_rem",
-  "display_name": "Delta power density in REM sleep",
+  "display_name": "Delta power density in rapid eye movement sleep (REM)",
   "description": "",
   "type": "numeric",
-  "units": "microvolts squared per hertz"
+  "units": "microvolts squared per hertz",
+  "labels": [
+    "uv2/hz",
+    "1",
+    "2",
+    "3",
+    "4"
+  ]
 }

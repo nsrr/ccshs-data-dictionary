@@ -1,8 +1,11 @@
 {
   "id": "race3",
   "display_name": "Race",
-  "description": "Race was collapsed into these three categories to match other NSRR datasets",
+  "description": "Race was collapsed into these three categories to match other National Sleep Research Resource (NSRR) datasets",
   "type": "choices",
   "domain": "race3",
+  "labels": [
+    "children's health questionnaire"
+  ],
   "commonly_used": true
 }

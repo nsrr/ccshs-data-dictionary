@@ -1,7 +1,14 @@
 {
   "id": "timest34",
-  "display_name": "Time in Stage 3-4 sleep",
-  "description": "",
+  "display_name": "Time in Stage 3/4 sleep",
+  "description": "Total time scored as stage 3/4 sleep rounded to nearest minute",
   "type": "numeric",
-  "units": "minutes"
+  "units": "minutes",
+  "labels": [
+    "psg",
+    "deep",
+    "slow wave",
+    "sws",
+    "delta"
+  ]
 }
