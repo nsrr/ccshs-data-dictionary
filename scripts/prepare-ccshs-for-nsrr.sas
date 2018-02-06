@@ -1,23 +1,25 @@
-********************************************************;
-* Title: prepare_trec_dataset.sas
-* Purpose: QC and prepare clean dataset for phenotypes
-*           for TREC subjects.
-********************************************************;
+*******************************************************************************;
+* Program           : prepare-ccshs-for-nsrr.sas
+* Project           : National Sleep Research Resource (sleepdata.org)
+* Author            : Michael Rueschman (MR)
+* Date Created      : 20180206
+* Purpose           : Prepare Cleveland Children's Sleep and Health Study data
+*                       for deposition on sleepdata.org.
+* Revision History  :
+*   Date      Author    Revision
+*   20170206  mr447     Clean up SAS program
+*******************************************************************************;
 
 ********************************************************;
-* Establish TREC options and libraries
+* Establish CCSHS options and libraries
 ********************************************************;
-
-%include "\\rfa01\bwh-sleepepi-home\projects\cohorts\TREC\SAS\TREC options and libnames.sas";
-
-libname nsrrdata "&newtrecpath\nsrr-prep\_datasets";
-
-libname obf "&newtrecpath\nsrr-prep\_ids";
-
-%let release = 0.3.0.pre;
+  %include "\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\SAS\TREC options and libnames.sas";
+  libname nsrrdata "&newtrecpath\nsrr-prep\_datasets";
+  libname obf "&newtrecpath\nsrr-prep\_ids";
+  %let release = 0.3.0.pre;
 
 ********************************************************;
-* Import TREC data
+* Import CCSHS-TREC data
 ********************************************************;
 
 *previously combined data;
@@ -210,7 +212,7 @@ run;
 
 /*
 *do once;
-proc import datafile="\\rfa01\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_ids\ccshs_obfuscated_ids.csv"
+proc import datafile="\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_ids\ccshs_obfuscated_ids.csv"
   out=obf
   dbms=csv
   replace;
@@ -257,5 +259,5 @@ run;
 
 
 *export dataset;
-proc export data=trec_final outfile="\\rfa01\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\&release\ccshs-trec-dataset-&release..csv" dbms=csv replace;
+proc export data=trec_final outfile="\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\&release\ccshs-trec-dataset-&release..csv" dbms=csv replace;
 run;
