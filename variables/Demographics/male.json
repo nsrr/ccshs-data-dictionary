@@ -5,7 +5,8 @@
   "type": "choices",
   "domain": "yesno",
   "labels": [
-    "children's health questionnaire"
+    "cde",
+    "71qxF89inig"
   ],
   "commonly_used": true
 }

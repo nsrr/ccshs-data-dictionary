@@ -1,6 +1,7 @@
 ## 0.3.0
 
 - Update many variables and domains to spell out abbreviations
+- Add Common Data Elements (CDE) labels to small set of variables
 - **Gem Changes**
   - Updated to spout 0.12.1
 

@@ -25,10 +25,44 @@
 *******************************************************************************;
   data trec_in;
     set nsrrdata.trec;
+
+    format _all_;
   run;
 
   data trec_out;
     set trec_in;
+
+    *create new AHI variables for icsd3;
+    ahi_a0h3 = 60 * (hrembp3 + hrop3 + hnrbp3 + hnrop3 +
+                    carbp + carop + canbp + canop +
+                    oarbp + oarop + oanbp + oanop ) / slpprdp;
+    ahi_a0h4 = 60 * (hrembp4 + hrop4 + hnrbp4 + hnrop4 +
+                    carbp + carop + canbp + canop +
+                    oarbp + oarop + oanbp + oanop ) / slpprdp;
+    ahi_a0h3a = 60 * (hremba3 + hroa3 + hnrba3 + hnroa3 +
+                      carbp + carop + canbp + canop +
+                      oarbp + oarop + oanbp + oanop ) / slpprdp;
+    ahi_a0h4a = 60 * (hremba4 + hroa4 + hnrba4 + hnroa4 +
+                      carbp + carop + canbp + canop +
+                      oarbp + oarop + oanbp + oanop ) / slpprdp;
+
+    ahi_o0h3 = 60 * (hrembp3 + hrop3 + hnrbp3 + hnrop3 +
+                    oarbp + oarop + oanbp + oanop ) / slpprdp;
+    ahi_o0h4 = 60 * (hrembp4 + hrop4 + hnrbp4 + hnrop4 +
+                    oarbp + oarop + oanbp + oanop ) / slpprdp;
+    ahi_o0h3a = 60 * (hremba3 + hroa3 + hnrba3 + hnroa3 +
+                      oarbp + oarop + oanbp + oanop ) / slpprdp;
+    ahi_o0h4a = 60 * (hremba4 + hroa4 + hnrba4 + hnroa4 +
+                      oarbp + oarop + oanbp + oanop ) / slpprdp;
+
+    ahi_c0h3 = 60 * (hrembp3 + hrop3 + hnrbp3 + hnrop3 +
+                    carbp + carop + canbp + canop ) / slpprdp;
+    ahi_c0h4 = 60 * (hrembp4 + hrop4 + hnrbp4 + hnrop4 +
+                    carbp + carop + canbp + canop ) / slpprdp;
+    ahi_c0h3a = 60 * (hremba3 + hroa3 + hnrba3 + hnroa3 +
+                    carbp + carop + canbp + canop ) / slpprdp;
+    ahi_c0h4a = 60 * (hremba4 + hroa4 + hnrba4 + hnroa4 +
+                    carbp + carop + canbp + canop ) / slpprdp;
 
     *clean SAS missing codes out of numeric variables;
     if bp1dias1 in (.m,.n,.i) then bp1dias1 = "";
@@ -202,7 +236,7 @@
       waistge75
       waistgt90
       waistge90
-  ;
+      ahi_a0h3--ahi_c0h4a;
   run;
 
   *bring list of obfuscated IDs in and merge with TREC dataset;
