@@ -6,6 +6,7 @@
   - `\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\0.3.0.beta1\`
 - **Gem Changes**
   - Updated to spout 0.12.1
+  - Using minitest 5.10.3 in order to make 'spout t' output readable
 
 ## 0.2.1 (January 19, 2016)
 
