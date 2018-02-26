@@ -7,14 +7,8 @@
   "calculation": "60 * (hrembp3 + hrop3 + hnrbp3 + hnrop3 + carbp + carop + canbp + canop + oarbp + oarop + oanbp + oanop) / slpprdp",
   "labels": [
     "icsd",
-    "psg",
-    "apnea",
-    "hypopnea",
     "obstructive",
-    "central",
-    "oa",
-    "ca",
-    "percent"
+    "central"
   ],
   "commonly_used": true
 }
