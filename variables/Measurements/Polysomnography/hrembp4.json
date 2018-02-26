@@ -1,0 +1,10 @@
+{
+  "id": "hrembp4",
+  "display_name": "Number of hypopnea (Rapid eye movement sleep (REM), Supine, >=4% oxygen desaturation)",
+  "description": "",
+  "type": "numeric",
+  "units": "events",
+  "labels": [
+    "back"
+  ]
+}

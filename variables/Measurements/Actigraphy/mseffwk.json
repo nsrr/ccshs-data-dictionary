@@ -3,8 +3,5 @@
   "display_name": "Mean sleep efficiency - weekday nights",
   "description": "",
   "type": "numeric",
-  "units": "percent",
-  "labels": [
-    "%"
-  ]
+  "units": "percent (%)"
 }

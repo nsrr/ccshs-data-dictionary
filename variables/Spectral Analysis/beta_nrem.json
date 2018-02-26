@@ -3,19 +3,13 @@
   "display_name": "Beta power density in non-rapid eye movement sleep (NREM)",
   "description": "",
   "type": "numeric",
-  "units": "microvolts squared per hertz",
+  "units": "microvolts squared per hertz (uV2/Hz)",
   "labels": [
     "non-rem",
     "non rem",
     "non rapid",
     "non-rapid eye movement",
     "non rapid",
-    "nrem",
-    "uv2/hz",
-    "16",
-    "17",
-    "18",
-    "19",
-    "20"
+    "nrem"
   ]
 }

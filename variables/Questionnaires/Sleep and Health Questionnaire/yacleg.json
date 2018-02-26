@@ -3,7 +3,7 @@
   "display_name": "Weight training (Leg)",
   "description": "Calculated as self-report of the number of minutes of activity per day times self report of the number of days per week in that activity",
   "type": "numeric",
-  "units": "minutes per week",
+  "units": "minutes per week (min/wk)",
   "labels": [
     "exercise"
   ],

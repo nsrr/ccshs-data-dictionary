@@ -3,9 +3,8 @@
   "display_name": "Fat mass percent of weight (Houtkooper)",
   "description": "",
   "type": "numeric",
-  "units": "percent",
+  "units": "percent (%)",
   "labels": [
-    "%",
     "bfp"
   ]
 }

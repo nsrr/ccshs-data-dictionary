@@ -2,5 +2,6 @@
   "id": "essscore_adult",
   "display_name": "Total score for adult Epworth Sleepiness Scale (ESS)",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": ""
 }

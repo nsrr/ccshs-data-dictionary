@@ -3,9 +3,5 @@
   "display_name": "Slow oscillations band start",
   "description": "",
   "type": "numeric",
-  "units": "hertz",
-  "labels": [
-    "hz",
-    "0.5-1"
-  ]
+  "units": "hertz (Hz)"
 }

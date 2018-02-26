@@ -3,12 +3,5 @@
   "display_name": "Delta band end",
   "description": "",
   "type": "numeric",
-  "units": "hertz",
-  "labels": [
-    "hz",
-    "1",
-    "2",
-    "3",
-    "4"
-  ]
+  "units": "hertz (Hz)"
 }

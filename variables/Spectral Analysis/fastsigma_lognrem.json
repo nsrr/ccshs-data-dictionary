@@ -3,13 +3,12 @@
   "display_name": "Log transformed fast sigma power density in non-rapid eye movement sleep (NREM)",
   "description": "",
   "type": "numeric",
+  "units": "",
   "labels": [
     "non-rem",
     "non rem",
     "non rapid",
     "non-rapid eye movement",
-    "non rapid",
-    "nrem",
-    "13.5-15"
+    "non rapid"
   ]
 }

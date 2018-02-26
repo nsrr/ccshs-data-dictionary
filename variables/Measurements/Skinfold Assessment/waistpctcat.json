@@ -3,8 +3,5 @@
   "display_name": "Waist circumference percentile category",
   "description": "Based on Fernandez pediatric waist circumference percentiles",
   "type": "choices",
-  "domain": "percentile",
-  "labels": [
-    "wc"
-  ]
+  "domain": "percentile"
 }

@@ -1,7 +1,9 @@
 ## 0.3.0
 
 - Update many variables and domains to spell out abbreviations
+- Update variable folders to contain abbreviations
 - Add Common Data Elements (CDE) labels to small set of variables
+- Update many variable units and labels
 - The CSV datasets generated from a SAS export is located here:
   - `\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\0.3.0.beta2\`
 - **Gem Changes**

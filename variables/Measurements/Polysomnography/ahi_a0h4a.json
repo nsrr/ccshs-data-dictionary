@@ -3,18 +3,11 @@
   "display_name": "Apnea-Hypopnea Index (AHI) >= 4% - number of [all apneas] and [hypopneas with >= 4% oxygen desaturation or arousal] per hour of sleep",
   "description": "",
   "type": "numeric",
-  "units": "events per hour",
+  "units": "events per hour (h)",
   "calculation": "60 * (hremba4 + hroa4 + hnrba4 + hnroa4 + carbp + carop + canbp + canop + oarbp + oarop + oanbp + oanop) / slpprdp",
   "labels": [
-    "icsd",
-    "psg",
-    "apnea",
-    "hypopnea",
     "obstructive",
-    "central",
-    "oa",
-    "ca",
-    "percent"
+    "central"
   ],
   "commonly_used": true
 }

@@ -1,0 +1,12 @@
+{
+  "id": "hnrba3",
+  "display_name": "Number of hypopnea with >=3% oxygen desaturation or arousal (Non-rapid eye movement sleep (NREM), Supine)",
+  "description": "",
+  "type": "numeric",
+  "units": "events",
+  "labels": [
+    "non-rem",
+    "non rem",
+    "back"
+  ]
+}

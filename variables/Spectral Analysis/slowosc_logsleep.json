@@ -3,8 +3,8 @@
   "display_name": "Log transformed slow oscillation power density in sleep",
   "description": "",
   "type": "numeric",
+  "units": "",
   "labels": [
-    "0.5-1",
     "non-rem",
     "non rem",
     "non-rapid eye movement",

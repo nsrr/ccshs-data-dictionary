@@ -3,9 +3,8 @@
   "display_name": "Age when stopped smoking regularly",
   "description": "",
   "type": "integer",
-  "units": "years",
+  "units": "years (yr)",
   "labels": [
-    "yrs",
     "cigarettes",
     "pipe",
     "bowl",

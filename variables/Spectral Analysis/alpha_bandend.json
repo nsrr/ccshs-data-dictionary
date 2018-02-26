@@ -3,13 +3,5 @@
   "display_name": "Alpha band end",
   "description": "",
   "type": "numeric",
-  "units": "hertz",
-  "labels": [
-    "hz",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12"
-  ]
+  "units": "hertz (Hz)"
 }

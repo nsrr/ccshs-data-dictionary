@@ -3,5 +3,8 @@
   "display_name": "Mean kilocalories from snacks per day",
   "description": "",
   "type": "numeric",
-  "units": "kilocalories per day"
+  "units": "kilocalories per day (kcal/day)",
+  "labels": [
+    "food"
+  ]
 }

@@ -3,11 +3,7 @@
   "display_name": "Weight",
   "description": "",
   "type": "numeric",
-  "units": "kilograms",
-  "labels": [
-    "kg",
-    "wt"
-  ],
+  "units": "kilograms (kg)",
   "commonly_used": true,
   "forms": [
     "ccshs_lab_physiology_child_form",

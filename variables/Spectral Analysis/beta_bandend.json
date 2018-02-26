@@ -3,14 +3,5 @@
   "display_name": "Beta band end",
   "description": "",
   "type": "numeric",
-  "units": "hertz",
-  "labels": [
-    "hz",
-    "15",
-    "16",
-    "17",
-    "18",
-    "19",
-    "20"
-  ]
+  "units": "hertz (Hz)"
 }

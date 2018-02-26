@@ -3,8 +3,5 @@
   "display_name": "Time in rapid eye movement sleep (REM)",
   "description": "Total time scored as rapid eye movement sleep (REM) rounded to nearest minute",
   "type": "numeric",
-  "units": "minutes",
-  "labels": [
-    "psg"
-  ]
+  "units": "minutes (min)"
 }

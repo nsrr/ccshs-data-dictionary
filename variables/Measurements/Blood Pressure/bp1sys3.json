@@ -3,8 +3,5 @@
   "display_name": "Systolic blood pressure (SBP) (Evening) time 3",
   "description": "Third measurement of systolic blood pressure (SBP) in evening",
   "type": "numeric",
-  "units": "millimeters of mercury",
-  "labels": [
-    "mmhg"
-  ]
+  "units": "millimeters of mercury (mmHg)"
 }

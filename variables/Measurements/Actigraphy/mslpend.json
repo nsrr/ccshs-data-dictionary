@@ -3,8 +3,5 @@
   "display_name": "Mean sleep time - weekend nights",
   "description": "",
   "type": "numeric",
-  "units": "minutes",
-  "labels": [
-    "min"
-  ]
+  "units": "minutes (min)"
 }

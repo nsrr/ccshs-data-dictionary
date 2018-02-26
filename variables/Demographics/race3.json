@@ -5,7 +5,7 @@
   "type": "choices",
   "domain": "race3",
   "labels": [
-    "children's health questionnaire"
+    "ethnicity"
   ],
   "commonly_used": true
 }

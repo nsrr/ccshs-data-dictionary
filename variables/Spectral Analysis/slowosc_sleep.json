@@ -3,9 +3,5 @@
   "display_name": "Slow oscillation power density in sleep",
   "description": "",
   "type": "numeric",
-  "units": "microvolts squared per hertz",
-  "labels": [
-    "0.5-1",
-    "uv2/hz"
-  ]
+  "units": "microvolts squared per hertz (uV2/Hz)"
 }

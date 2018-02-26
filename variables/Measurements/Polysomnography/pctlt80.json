@@ -3,11 +3,10 @@
   "display_name": "Percent of sleep time <80% oxygen saturation (SaO2)",
   "description": "Ratio of the number of minutes with oxygen saturation (SaO2) under 80% to the total sleep time expressed in hours.",
   "type": "numeric",
-  "units": "percent",
+  "units": "percent (%)",
   "labels": [
     "hypoxia",
     "hypoxemia",
-    "psg",
     "oximetry"
   ]
 }

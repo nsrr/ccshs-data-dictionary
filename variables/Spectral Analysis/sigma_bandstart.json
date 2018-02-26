@@ -3,12 +3,5 @@
   "display_name": "Sigma band start",
   "description": "",
   "type": "numeric",
-  "units": "hertz",
-  "labels": [
-    "hz",
-    "12",
-    "13",
-    "14",
-    "15"
-  ]
+  "units": "hertz (Hz)"
 }

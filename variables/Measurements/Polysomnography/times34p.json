@@ -3,10 +3,8 @@
   "display_name": "Percent of sleep time in Stage 3-4",
   "description": "[100*(number of minutes scored as stage 3-4 sleep)/(total sleep time)]",
   "type": "numeric",
-  "units": "percent",
+  "units": "percent (%)",
   "labels": [
-    "psg",
-    "%",
     "deep",
     "slow wave",
     "sws",

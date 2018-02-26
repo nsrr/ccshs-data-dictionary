@@ -5,6 +5,6 @@
   "type": "integer",
   "units": "days",
   "labels": [
-    "#"
+    "food"
   ]
 }

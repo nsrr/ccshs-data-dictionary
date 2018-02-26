@@ -3,7 +3,7 @@
   "display_name": "Self-reported daily nap time in minutes (Weekend)",
   "description": "Calculated from self report of hours and minutes spent napping on average on weekends (ywe_napdur = (ywenphr * 60) + ywenpmn)",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "forms": [
     "ccshs_sleep_and_health_questionnaire_form"
   ]

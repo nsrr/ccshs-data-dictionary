@@ -3,9 +3,5 @@
   "display_name": "Fast sigma power density in rapid eye movement sleep (REM)",
   "description": "",
   "type": "numeric",
-  "units": "microvolts squared per hertz",
-  "labels": [
-    "uv2/hz",
-    "13.5-15"
-  ]
+  "units": "microvolts squared per hertz (uV2/Hz)"
 }

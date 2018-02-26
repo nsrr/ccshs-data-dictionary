@@ -3,9 +3,8 @@
   "display_name": "Time in Stage 1 sleep",
   "description": "Total time scored as stage 1 sleep rounded to nearest minute",
   "type": "numeric",
-  "units": "minutes",
+  "units": "minutes (min)",
   "labels": [
-    "psg",
     "non-rem",
     "non rem",
     "nrem",

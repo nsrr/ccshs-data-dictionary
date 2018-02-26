@@ -3,8 +3,5 @@
   "display_name": "Diastolic blood pressure (DBP) (Evening) time 3",
   "description": "Third measurement of diastolic blood pressure (DBP) in evening",
   "type": "numeric",
-  "units": "millimeters of mercury",
-  "labels": [
-    "mmhg"
-  ]
+  "units": "millimeters of mercury (mmHg)"
 }

@@ -3,9 +3,5 @@
   "display_name": "Fast sigma band end",
   "description": "",
   "type": "numeric",
-  "units": "hertz",
-  "labels": [
-    "hz",
-    "13.5-15"
-  ]
+  "units": "hertz (Hz)"
 }

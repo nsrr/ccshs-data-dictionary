@@ -3,5 +3,8 @@
   "display_name": "Mean protein from snacks per day",
   "description": "",
   "type": "numeric",
-  "units": "grams per day"
+  "units": "grams per day (g/day)",
+  "labels": [
+    "food"
+  ]
 }

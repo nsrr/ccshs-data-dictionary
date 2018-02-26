@@ -5,6 +5,6 @@
   "type": "numeric",
   "units": "snacks",
   "labels": [
-    "#"
+    "food"
   ]
 }

@@ -3,11 +3,5 @@
   "display_name": "Log transformed theta power density in rapid eye movement sleep (REM)",
   "description": "",
   "type": "numeric",
-  "labels": [
-    "4",
-    "5",
-    "6",
-    "7",
-    "8"
-  ]
+  "units": ""
 }

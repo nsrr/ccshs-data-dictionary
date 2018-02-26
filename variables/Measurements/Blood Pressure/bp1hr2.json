@@ -3,8 +3,5 @@
   "display_name": "Heart rate (Evening) time 2",
   "description": "Second measurement of heart rate in evening",
   "type": "numeric",
-  "units": "beats per minute",
-  "labels": [
-    "bpm"
-  ]
+  "units": "beats per minute (bpm)"
 }

@@ -3,5 +3,6 @@
   "display_name": "Total score for modified Epworth Sleepiness Scale (ESS)",
   "description": "",
   "type": "numeric",
+  "units": "",
   "commonly_used": true
 }

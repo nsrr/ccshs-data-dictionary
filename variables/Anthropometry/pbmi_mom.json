@@ -3,9 +3,8 @@
   "display_name": "Body Mass Index (BMI) of Subject's Mother",
   "description": "",
   "type": "numeric",
-  "units": "kilograms per meters squared",
+  "units": "kilograms per meters squared (kg/m2)",
   "labels": [
-    "kg/m2",
     "weight",
     "height"
   ]

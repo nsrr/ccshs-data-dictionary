@@ -3,7 +3,7 @@
   "display_name": "Height",
   "description": "",
   "type": "numeric",
-  "units": "centimeters",
+  "units": "centimeters (cm)",
   "commonly_used": true,
   "forms": [
     "ccshs_lab_physiology_child_form",

@@ -3,9 +3,6 @@
   "display_name": "Diastolic blood pressure (DBP) (mean of 6 measurements)",
   "description": "Blood pressure (BP) is collected six times, three measurements in the evening and three in the morning. This is the mean of the diastolic measurements at each time point.",
   "type": "numeric",
-  "units": "millimeters of mercury",
-  "labels": [
-    "mmhg"
-  ],
+  "units": "millimeters of mercury (mmHg)",
   "commonly_used": true
 }

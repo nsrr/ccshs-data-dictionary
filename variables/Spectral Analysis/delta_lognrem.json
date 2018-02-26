@@ -3,16 +3,13 @@
   "display_name": "Log transformed delta power density in non-rapid eye movement sleep (NREM)",
   "description": "",
   "type": "numeric",
+  "units": "",
   "labels": [
     "non-rem",
     "non rem",
     "non rapid",
     "non-rapid eye movement",
     "non rapid",
-    "nrem",
-    "1",
-    "2",
-    "3",
-    "4"
+    "nrem"
   ]
 }

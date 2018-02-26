@@ -3,8 +3,5 @@
   "display_name": "Height percentile (from the Centers for Disease Control and Prevention (CDC)) for age, gender",
   "description": "Age- and gender-specific height z-score based on the Centers for Disease Control and Prevention (CDC) norms",
   "type": "numeric",
-  "units": "percent",
-  "labels": [
-    "%"
-  ]
+  "units": "percent (%)"
 }

@@ -3,14 +3,5 @@
   "display_name": "Slow oscillation power density in rapid eye movement sleep (REM)",
   "description": "",
   "type": "numeric",
-  "units": "microvolts squared per hertz",
-  "labels": [
-    "0.5-1",
-    "non-rem",
-    "non rem",
-    "non-rapid eye movement",
-    "non rapid",
-    "nrem",
-    "uv2/hz"
-  ]
+  "units": "microvolts squared per hertz (uV2/Hz)"
 }
