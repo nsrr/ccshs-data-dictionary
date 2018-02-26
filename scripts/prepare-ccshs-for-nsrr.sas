@@ -18,7 +18,7 @@
   libname nsrrdata "&newtrecpath\nsrr-prep\_datasets";
   libname obf "&newtrecpath\nsrr-prep\_ids";
 
-  %let release = 0.3.0.beta1;
+  %let release = 0.3.0.beta2;
 
 *******************************************************************************;
 * Import CCSHS-TREC data
@@ -236,6 +236,30 @@
       waistge75
       waistgt90
       waistge90
+      hrembp3
+      hrop3
+      hnrbp3
+      hnrop3
+      hrembp4
+      hrop4
+      hnrbp4
+      hnrop4
+      hremba3
+      hroa3
+      hnrba3
+      hnroa3
+      hremba4
+      hroa4
+      hnrba4
+      hnroa4
+      carbp
+      carop
+      canbp
+      canop
+      oarbp
+      oarop
+      oanbp
+      oanop
       ahi_a0h3--ahi_c0h4a;
   run;
 
