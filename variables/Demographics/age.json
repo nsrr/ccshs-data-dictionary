@@ -3,6 +3,6 @@
   "display_name": "Age at time of visit",
   "description": "",
   "type": "numeric",
-  "units": "years (yr)",
+  "units": "years",
   "commonly_used": true
 }

@@ -3,7 +3,7 @@
   "display_name": "Age when started smoking regularly",
   "description": "",
   "type": "integer",
-  "units": "years (yr)",
+  "units": "years",
   "labels": [
     "cigarettes",
     "pipe",

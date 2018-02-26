@@ -3,5 +3,5 @@
   "display_name": "Modified Epworth Sleepiness Scale (ESS) Score >= 11",
   "description": "",
   "type": "choices",
-  "domain": "yesno"
+  "domain": "noyes"
 }
