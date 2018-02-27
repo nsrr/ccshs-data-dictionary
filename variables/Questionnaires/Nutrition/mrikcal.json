@@ -3,7 +3,7 @@
   "display_name": "Mean energy per day",
   "description": "",
   "type": "numeric",
-  "units": "kilocalories per day (kcal/day)",
+  "units": "kilocalories per day",
   "labels": [
     "food"
   ]

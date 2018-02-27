@@ -3,7 +3,7 @@
   "display_name": "Mean total carbohydrate per day",
   "description": "",
   "type": "numeric",
-  "units": "grams per day (g/day)",
+  "units": "grams per day",
   "labels": [
     "food"
   ]
