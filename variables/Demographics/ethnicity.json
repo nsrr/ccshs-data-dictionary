@@ -5,7 +5,8 @@
   "type": "choices",
   "domain": "ethnicity",
   "labels": [
-    "race"
+    "race",
+    "cde:czSdhGmvyKU"
   ],
   "commonly_used": true
 }
