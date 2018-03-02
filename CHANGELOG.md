@@ -1,3 +1,5 @@
+## 0.3.1
+
 ## 0.3.0 (March 1, 2018)
 
 - Update many variables and domains to spell out abbreviations
