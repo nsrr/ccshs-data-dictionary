@@ -1,5 +1,7 @@
 ## 0.3.1
 
+- Add cde labels to variables
+
 ## 0.3.0 (March 1, 2018)
 
 - Update many variables and domains to spell out abbreviations
