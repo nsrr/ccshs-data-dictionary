@@ -1,6 +1,8 @@
-## 0.3.1
+## 0.3.1 (March 15, 2018)
 
 - Add cde labels to variables
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\0.3.1\`
 
 ## 0.3.0 (March 1, 2018)
 
