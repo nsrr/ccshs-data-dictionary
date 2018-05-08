@@ -1,5 +1,7 @@
 ## 0.3.2
 
+- Remove Common Data Elements (CDE) labels from variables
+
 ## 0.3.1 (March 15, 2018)
 
 - Add cde labels to variables

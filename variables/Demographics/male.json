@@ -5,8 +5,7 @@
   "type": "choices",
   "domain": "noyes",
   "labels": [
-    "sex",
-    "cde:71qxF89inig"
+    "sex"
   ],
   "commonly_used": true
 }

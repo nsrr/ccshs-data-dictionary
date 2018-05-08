@@ -4,8 +4,5 @@
   "description": "Blood pressure (BP) is collected six times, three measurements in the evening and three in the morning.  This is the mean of the systolic measurements at each time point.",
   "type": "numeric",
   "units": "millimeters of mercury (mmHg)",
-  "labels": [
-    "cde:XZO3pRNw42G"
-  ],
   "commonly_used": true
 }
