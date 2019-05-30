@@ -1,0 +1,10 @@
+{
+  "id": "yycafdr",
+  "display_name": "Using caffeine drinks to stay awake (last year)",
+  "description": "",
+  "type": "choices",
+  "domain": "lastmonthfreq",
+  "forms": [
+    "ccshs_sleep_and_health_questionnaire_form"
+  ]
+}

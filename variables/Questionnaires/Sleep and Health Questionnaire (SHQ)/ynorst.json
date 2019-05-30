@@ -1,0 +1,10 @@
+{
+  "id": "ynorst",
+  "display_name": "Waking not feeling rested no matter how much sleep time you had (last month)",
+  "description": "",
+  "type": "choices",
+  "domain": "lastmonthfreq",
+  "forms": [
+    "ccshs_sleep_and_health_questionnaire_form"
+  ]
+}

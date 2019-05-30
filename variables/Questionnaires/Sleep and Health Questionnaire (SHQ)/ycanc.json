@@ -1,0 +1,10 @@
+{
+  "id": "ycanc",
+  "display_name": "Medical history: Had cancer",
+  "description": "",
+  "type": "choices",
+  "domain": "noyes",
+  "forms": [
+    "ccshs_sleep_and_health_questionnaire_form"
+  ]
+}

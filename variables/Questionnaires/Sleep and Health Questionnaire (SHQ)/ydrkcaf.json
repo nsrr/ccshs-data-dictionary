@@ -2,8 +2,8 @@
   "id": "ydrkcaf",
   "display_name": "Caffeine beverages per day",
   "description": "",
-  "type": "integer",
-  "units": "drinks",
+  "type": "choices",
+  "domain": "caffbev",
   "labels": [
     "soda",
     "pop",

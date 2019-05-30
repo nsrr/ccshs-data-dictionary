@@ -1,0 +1,27 @@
+[
+  {
+    "value": "1",
+    "display_name": "Never",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "Rarely (Less than once a week)",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "Sometimes (1 to 2 times per week)",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "Frequently (3-4 times per week)",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "Always or Almost Always (5 to 7 times per week)",
+    "description": ""
+  }
+]

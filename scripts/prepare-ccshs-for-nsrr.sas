@@ -7,6 +7,7 @@
 *                       for deposition on sleepdata.org.
 * Revision History  :
 *   Date      Author    Revision
+*   20190530  mr447     Add variables for 0.4.0 dataset
 *   20170206  mr447     Clean up SAS program
 *******************************************************************************;
 
@@ -260,7 +261,44 @@
       oarop
       oanbp
       oanop
-      ahi_a0h3--ahi_c0h4a;
+      ahi_a0h3--ahi_c0h4a
+      ydifal
+      yexsl
+      ypara
+      ytirfa
+      yslpco
+      ycafdr
+      ynorst
+      yydifal
+      yyexsl
+      yypara
+      yytirfa
+      yyslpco
+      yycafdr
+      yynorst
+      ynitwu
+      ydrclass
+      ydrhw
+      yalert
+      ytired
+      ytrgetup
+      yfallback
+      yhelpgetup
+      ymoreslp
+      ytv
+      yread
+      yeat
+      ywork
+      ytalkface
+      ytalkphon
+      yfrnd
+      ycanc
+      ydep
+      ydiab
+      yhtn
+      yins
+      yinsdx
+      ;
   run;
 
   *bring list of obfuscated IDs in and merge with TREC dataset;
