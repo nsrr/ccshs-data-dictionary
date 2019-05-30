@@ -1,3 +1,5 @@
+## 0.4.0
+
 ## 0.3.2 (May 9, 2018)
 
 - Remove Common Data Elements (CDE) labels from variables
