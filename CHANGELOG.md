@@ -1,6 +1,8 @@
 ## 0.4.0
 
 - Add more Sleep and Health Questionnaire variables about medical history and sleepiness
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\0.4.0.rc\`
 
 - **Gem Changes**
   - Update to ruby 2.6.1
