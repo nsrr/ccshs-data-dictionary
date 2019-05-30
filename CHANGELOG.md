@@ -1,5 +1,9 @@
 ## 0.4.0
 
+- **Gem Changes**
+  - Update to ruby 2.6.1
+  - Update to spout 1.0.0
+
 ## 0.3.2 (May 9, 2018)
 
 - Remove Common Data Elements (CDE) labels from variables

@@ -1,7 +1,7 @@
 CCSHS Data Dictionary
 =====================
 
-[![Build Status](https://travis-ci.org/nsrr/ccshs-data-dictionary.svg?branch=master)](https://travis-ci.org/nsrr/ccshs-data-dictionary)
+[![Build Status](https://travis-ci.com/nsrr/ccshs-data-dictionary.svg?branch=master)](https://travis-ci.com/nsrr/ccshs-data-dictionary)
 
 ### Exports
 
