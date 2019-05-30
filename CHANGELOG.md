@@ -1,5 +1,7 @@
 ## 0.4.0
 
+- Add more Sleep and Health Questionnaire variables about medical history and sleepiness
+
 - **Gem Changes**
   - Update to ruby 2.6.1
   - Update to spout 1.0.0
