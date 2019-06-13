@@ -298,6 +298,15 @@
       yhtn
       yins
       yinsdx
+      sitread
+      watchtv
+      inact
+      passeng
+      lying
+      sittalk
+      sitquiet
+      homework
+      driving
       ;
   run;
 
