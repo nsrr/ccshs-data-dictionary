@@ -1,8 +1,8 @@
-## 0.5.0
+## 0.5.0 (June 13, 2019)
 
 - Add Epworth variables and PDF form
 - The CSV datasets generated from a SAS export is located here:
-  - `\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\0.5.0.rc\`
+  - `\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\0.5.0\`
 
 ## 0.4.0 (May 30, 2019)
 
