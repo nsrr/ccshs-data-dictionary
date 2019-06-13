@@ -1,7 +1,7 @@
 {
   "id": "essscore",
   "display_name": "Total score for modified Epworth Sleepiness Scale (ESS)",
-  "description": "",
+  "description": "The sum of items 1-8.",
   "type": "numeric",
   "units": "",
   "commonly_used": true,

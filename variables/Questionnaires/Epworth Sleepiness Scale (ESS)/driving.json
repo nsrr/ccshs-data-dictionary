@@ -1,7 +1,7 @@
 {
   "id": "driving",
   "display_name": "Chance of dozing while in a car, while stopped for a few minutes in traffic (ESS9)",
-  "description": "",
+  "description": "*'I do not drive'* responses should be set to missing when computing summary score.",
   "type": "choices",
   "domain": "epworthdriving",
   "forms": [
