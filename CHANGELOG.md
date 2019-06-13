@@ -1,3 +1,5 @@
+## 0.5.0
+
 ## 0.4.0 (May 30, 2019)
 
 - Add more Sleep and Health Questionnaire variables about medical history and sleepiness
