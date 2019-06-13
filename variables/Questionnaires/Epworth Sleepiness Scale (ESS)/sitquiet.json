@@ -1,0 +1,10 @@
+{
+  "id": "sitquiet",
+  "display_name": "Chance of dozing while sitting quietly after lunch (ESS7)",
+  "description": "",
+  "type": "choices",
+  "domain": "epworth",
+  "forms": [
+    "ccshs_epworth_sleepiness_scale"
+  ]
+}

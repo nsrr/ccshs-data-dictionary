@@ -1,0 +1,10 @@
+{
+  "id": "driving",
+  "display_name": "Chance of dozing while in a car, while stopped for a few minutes in traffic (ESS9)",
+  "description": "",
+  "type": "choices",
+  "domain": "epworthdriving",
+  "forms": [
+    "ccshs_epworth_sleepiness_scale"
+  ]
+}

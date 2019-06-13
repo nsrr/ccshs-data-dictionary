@@ -1,5 +1,9 @@
 ## 0.5.0
 
+- Add Epworth variables and PDF form
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\0.5.0.pre\`
+
 ## 0.4.0 (May 30, 2019)
 
 - Add more Sleep and Health Questionnaire variables about medical history and sleepiness

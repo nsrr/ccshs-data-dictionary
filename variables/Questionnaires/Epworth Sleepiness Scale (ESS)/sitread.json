@@ -1,0 +1,10 @@
+{
+  "id": "sitread",
+  "display_name": "Chance of dozing while sitting and reading (ESS1)",
+  "description": "",
+  "type": "choices",
+  "domain": "epworth",
+  "forms": [
+    "ccshs_epworth_sleepiness_scale"
+  ]
+}

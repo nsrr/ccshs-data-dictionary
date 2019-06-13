@@ -1,0 +1,10 @@
+{
+  "id": "homework",
+  "display_name": "Chance of dozing while doing homework or taking a test (ESS8)",
+  "description": "",
+  "type": "choices",
+  "domain": "epworth",
+  "forms": [
+    "ccshs_epworth_sleepiness_scale"
+  ]
+}

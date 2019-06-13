@@ -1,0 +1,10 @@
+{
+  "id": "passeng",
+  "display_name": "Chance of dozing as a passenger in a car for an hour without a break (ESS4)",
+  "description": "",
+  "type": "choices",
+  "domain": "epworth",
+  "forms": [
+    "ccshs_epworth_sleepiness_scale"
+  ]
+}
