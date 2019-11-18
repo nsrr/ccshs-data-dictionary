@@ -1,7 +1,0 @@
-{
-  "id": "slowsigma_logrem",
-  "display_name": "Log transformed slow sigma power density in rapid eye movement sleep (REM)",
-  "description": "",
-  "type": "numeric",
-  "units": ""
-}

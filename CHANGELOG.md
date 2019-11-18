@@ -1,5 +1,7 @@
 ## 0.6.0
 
+- Remove EEG spectral summary variables
+
 ## 0.5.0 (June 13, 2019)
 
 - Add Epworth variables and PDF form
