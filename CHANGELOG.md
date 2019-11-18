@@ -1,6 +1,8 @@
-## 0.6.0
+## 0.6.0 (November 18, 2019)
 
 - Remove EEG spectral summary variables
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\0.6.0\`
 
 ## 0.5.0 (June 13, 2019)
 
