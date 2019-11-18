@@ -1,3 +1,5 @@
+## 0.6.0
+
 ## 0.5.0 (June 13, 2019)
 
 - Add Epworth variables and PDF form
