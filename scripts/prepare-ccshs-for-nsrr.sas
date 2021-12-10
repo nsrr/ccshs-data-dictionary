@@ -8,7 +8,7 @@
 * Revision History  :
 *   Date      Author    Revision
 *   20190530  mr447     Add variables for 0.4.0 dataset
-*   20170206  mr447     Clean up SAS program
+*   20170206  mr447     Clean up SAS program 
 *******************************************************************************;
 
 *******************************************************************************;
@@ -345,6 +345,142 @@
   run;
 
 *******************************************************************************;
+* create harmonized datasets ;
+*******************************************************************************;
+data trec_final_harmonized;
+	set trec_final;
+*demographics
+*age;
+*use age;
+	format nsrr_age 8.2;
+ 	nsrr_age = age;
+
+*age_gt89;
+*use age;
+	format nsrr_age_gt89 $100.; 
+	if age gt 89 then nsrr_age_gt89='yes';
+	else if age le 89 then nsrr_age_gt89='no';
+
+*sex;
+*use male;
+	format nsrr_sex $100.;
+    if male = 1 then nsrr_sex='male';
+	else if male = 0 then nsrr_sex='female';
+
+*race;
+*use race3;
+    format nsrr_race $100.;
+    if race3 = 1 then nsrr_race = 'white';
+    else if race3 = 2 then nsrr_race = 'black or african american';
+    else if race3 = 3 then nsrr_race = 'other';
+	else  nsrr_race = 'not reported';
+
+*ethnicity;
+*use ethnicity;
+	format nsrr_ethnicity $100.;
+    if ethnicity = 1 then nsrr_ethnicity = 'hispanic or latino';
+    else if ethnicity = 2 then nsrr_ethnicity = 'not hispanic or latino';
+	else if ethnicity = . then nsrr_ethnicity = 'not reported';
+
+*anthropometry
+*bmi;
+*use bmi;
+	format nsrr_bmi 10.9;
+ 	nsrr_bmi = bmi;
+
+*clinical data/vital signs
+*bp_systolic;
+*use bpsys;
+	format nsrr_bp_systolic 8.2;
+	nsrr_bp_systolic = bpsys;
+
+*bp_diastolic;
+*use bpdias;
+	format nsrr_bp_diastolic 8.2;
+ 	nsrr_bp_diastolic = bpdias;
+
+*lifestyle and behavioral health
+*current_smoker;
+*use ycursmk and yevrsmk;
+  format nsrr_current_smoker $100.;
+  if yevrsmk = 0  then nsrr_current_smoker = 'no';
+  else  if ycursmk = 0 then nsrr_current_smoker = 'no';
+  else if ycursmk = 1  then nsrr_current_smoker = 'yes';
+  else if ycursmk = .  then nsrr_current_smoker = 'not reported';
+
+*ever_smoker;
+  *use yevrsmk;
+  format nsrr_ever_smoker $100.;
+  if yevrsmk = 0 then nsrr_ever_smoker = 'no';
+  else if yevrsmk = 1 then nsrr_ever_smoker = 'yes';
+  else if yevrsmk = .  then nsrr_ever_smoker = 'not reported';
+
+	keep 
+		nsrrid
+		visit
+		nsrr_age
+		nsrr_age_gt89
+		nsrr_sex
+		nsrr_race
+		nsrr_ethnicity
+		nsrr_bp_systolic
+		nsrr_bp_diastolic
+		nsrr_bmi
+	    nsrr_current_smoker
+        nsrr_ever_smoker
+		;
+run;
+
+*******************************************************************************;
+* checking harmonized datasets ;
+*******************************************************************************;
+
+/* Checking for extreme values for continuous variables */
+
+proc means data=trec_final_harmonized;
+VAR 	nsrr_age
+		nsrr_bmi
+		nsrr_bp_systolic
+		nsrr_bp_diastolic;
+run;
+
+/* Checking categorical variables */
+
+proc freq data=trec_final_harmonized;
+table 	nsrr_age_gt89
+		nsrr_sex
+		nsrr_race
+		nsrr_ethnicity
+	    nsrr_current_smoker
+        nsrr_ever_smoker;
+run;
+
+
+*******************************************************************************;
+* make all variable names lowercase ;
+*******************************************************************************;
+  options mprint;
+  %macro lowcase(dsn);
+       %let dsid=%sysfunc(open(&dsn));
+       %let num=%sysfunc(attrn(&dsid,nvars));
+       %put &num;
+       data &dsn;
+             set &dsn(rename=(
+          %do i = 1 %to &num;
+          %let var&i=%sysfunc(varname(&dsid,&i));    /*function of varname returns the name of a SAS data set variable*/
+          &&var&i=%sysfunc(lowcase(&&var&i))         /*rename all variables*/
+          %end;));
+          %let close=%sysfunc(close(&dsid));
+    run;
+  %mend lowcase;
+
+  %lowcase(trec_final);
+  %lowcase(trec_final_harmonized);
+
+
+
+
+*******************************************************************************;
 * create permanent dataset ;
 *******************************************************************************;
   data nsrrdata.nsrr_trec_&sasfiledate;
@@ -356,6 +492,12 @@
 *******************************************************************************;
   proc export data=trec_final
     outfile="\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\&release\ccshs-trec-dataset-&release..csv"
+    dbms=csv
+    replace;
+  run;
+
+    proc export data=trec_final_harmonized
+    outfile="\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\&release\ccshs-trec-harmonized-&release..csv"
     dbms=csv
     replace;
   run;
