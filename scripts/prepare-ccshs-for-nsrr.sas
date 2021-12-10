@@ -19,7 +19,7 @@
   libname nsrrdata "&newtrecpath\nsrr-prep\_datasets";
   libname obf "&newtrecpath\nsrr-prep\_ids";
 
-  %let release = 0.6.0;
+  %let release = 0.7.0.pre;
 
 *******************************************************************************;
 * Import CCSHS-TREC data
