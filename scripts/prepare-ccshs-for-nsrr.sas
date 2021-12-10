@@ -310,6 +310,7 @@
       ;
   run;
 
+
   *bring list of obfuscated IDs in and merge with TREC dataset;
   data obf_ids;
     set obf.ccshs_obfuscated_ids;
@@ -336,8 +337,9 @@
     visit = 3;
 
     *only keep nsrrid in final dataset;
-    drop personid racewhite -- raceamerind race;
+    drop personid racewhite -- raceamerind;
   run;
+
 
   *sort by nsrrid before exporting;
   proc sort data=trec_final;
@@ -368,11 +370,14 @@ data trec_final_harmonized;
 	else if male = 0 then nsrr_sex='female';
 
 *race;
-*use race3;
+*use race;
     format nsrr_race $100.;
-    if race3 = 1 then nsrr_race = 'white';
-    else if race3 = 2 then nsrr_race = 'black or african american';
-    else if race3 = 3 then nsrr_race = 'other';
+    if race = 1 then nsrr_race = 'white';
+    else if race = 2 then nsrr_race = 'black or african american';
+    else if race = 3 then nsrr_race = 'asian';
+	else if race = 4 then nsrr_race = 'american indian or alaska native';
+	else if race = 5 then nsrr_race = 'native hawaiian or other pacific islander';
+	else if race = 6 then nsrr_race = 'multiple';
 	else  nsrr_race = 'not reported';
 
 *ethnicity;

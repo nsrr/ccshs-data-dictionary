@@ -1,0 +1,32 @@
+[
+  {
+    "value": "1",
+    "display_name": "white",
+    "description": ""
+  },
+  {
+    "value": "2",
+    "display_name": "black",
+    "description": ""
+  },
+  {
+    "value": "3",
+    "display_name": "asian",
+    "description": ""
+  },
+  {
+    "value": "4",
+    "display_name": "native american",
+    "description": ""
+  },
+  {
+    "value": "5",
+    "display_name": "pacific islander",
+    "description": ""
+  },
+  {
+    "value": "6",
+    "display_name": "multiple",
+    "description": ""
+  }
+]
