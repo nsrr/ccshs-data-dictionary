@@ -1,0 +1,7 @@
+{
+  "id": "bp2sys2",
+  "display_name": "Systolic blood pressure (SBP) (Morning) time 2",
+  "description": "Second measurement of systolic blood pressure (SBP) in morning",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)"
+}

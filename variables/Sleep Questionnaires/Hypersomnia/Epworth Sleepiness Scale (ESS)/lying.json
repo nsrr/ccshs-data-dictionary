@@ -1,0 +1,10 @@
+{
+  "id": "lying",
+  "display_name": "Chance of dozing while lying down in the afternoon when circumstances permit (ESS5)",
+  "description": "",
+  "type": "choices",
+  "domain": "epworth",
+  "forms": [
+    "ccshs_epworth_sleepiness_scale"
+  ]
+}

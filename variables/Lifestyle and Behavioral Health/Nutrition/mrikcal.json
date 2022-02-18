@@ -1,0 +1,10 @@
+{
+  "id": "mrikcal",
+  "display_name": "Mean energy per day",
+  "description": "",
+  "type": "numeric",
+  "units": "kilocalories per day",
+  "labels": [
+    "food"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "waistcm",
+  "display_name": "Waist circumference",
+  "description": "Mean of two measurements",
+  "type": "numeric",
+  "units": "centimeters (cm)",
+  "commonly_used": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "slpprdp",
+  "display_name": "Total Sleep Duration: the interval between sleep onset time and lights on/out-bed time while the participant is asleep from type I polysomnography",
+  "description": "Conventionally, this would be called total sleep time (TST) (i.e. total time spent in stage 1 or greater). <br><br>Total time from lights out to lights on that is scored as sleep (rounded to nearest minute)",
+  "type": "numeric",
+  "units": "minutes (min)",
+  "labels": [
+    "ttldursp_f1t1"
+  ],
+  "commonly_used": true
+}

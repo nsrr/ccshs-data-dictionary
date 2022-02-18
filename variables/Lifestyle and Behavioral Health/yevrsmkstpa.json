@@ -1,0 +1,13 @@
+{
+  "id": "yevrsmkstpa",
+  "display_name": "Age when stopped smoking regularly",
+  "description": "",
+  "type": "integer",
+  "units": "years",
+  "labels": [
+    "chat_sleep_and_health_questionnaire"
+  ],
+  "forms": [
+    "ccshs_sleep_and_health_questionnaire_form"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ydifal",
+  "display_name": "Difficulty falling asleep (last month)",
+  "description": "",
+  "type": "choices",
+  "domain": "lastmonthfreq",
+  "labels": [
+    "chat_sleep_and_health_questionnaire",
+    "insomnia"
+  ],
+  "forms": [
+    "ccshs_sleep_and_health_questionnaire_form"
+  ]
+}

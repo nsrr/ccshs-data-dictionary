@@ -1,0 +1,12 @@
+{
+  "id": "ahi_c0h3",
+  "display_name": "Central Apnea-Hypopnea Index: (Central apneas with no oxygen desaturation threshold used and with or without arousal + hypopneas with > 30% flow reduction and with > 3% desaturation and with or without arousal) / hour of sleep from type I polysomnography from type I polysomnography",
+  "description": "Calculated - Summary metric of sleep disordered breathing events.",
+  "type": "numeric",
+  "units": "events per hour",
+  "calculation": "60 * (hrembp3 + hrop3 + hnrbp3 + hnrop3 + carbp + carop + canbp + canop) / slpprdp",
+  "labels": [
+    "cahi_ca0uhp3x3u_f1t1"
+  ],
+  "commonly_used": true
+}

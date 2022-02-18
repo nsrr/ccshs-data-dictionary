@@ -1,0 +1,14 @@
+{
+  "id": "yalert",
+  "display_name": "How often alert most of the day",
+  "description": "",
+  "type": "choices",
+  "domain": "sleepinessfreq",
+  "labels": [
+    "chat_sleep_and_health_questionnaire",
+    "subjective_sleepiness"
+  ],
+  "forms": [
+    "ccshs_sleep_and_health_questionnaire_form"
+  ]
+}

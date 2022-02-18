@@ -1,0 +1,10 @@
+{
+  "id": "times34p",
+  "display_name": "Percentage duration of sleep in stage 3/4 sleep from type I polysomnography",
+  "description": "Conventionally, total sleep duration would be called total sleep time (TST).<br><br>[100*(number of minutes scored as stage 3-4 sleep)/(total sleep time)]",
+  "type": "numeric",
+  "units": "percent (%)",
+  "labels": [
+    "pctdursp_s3_f1t1"
+  ]
+}

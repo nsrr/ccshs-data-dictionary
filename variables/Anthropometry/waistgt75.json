@@ -1,0 +1,7 @@
+{
+  "id": "waistgt75",
+  "display_name": "Waist circumference > 75th percentile for age, gender",
+  "description": "Based on Fernandez pediatric waist circumference percentiles",
+  "type": "choices",
+  "domain": "noyes"
+}

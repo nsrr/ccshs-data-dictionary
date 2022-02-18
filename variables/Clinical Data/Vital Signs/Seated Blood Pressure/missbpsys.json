@@ -1,0 +1,6 @@
+{
+  "id": "missbpsys",
+  "display_name": "Number of missing systolic measurements",
+  "description": "Blood pressure (BP) is collected six times, three measurements in the evening and three in the morning.  This is the number of time points missing systolic blood pressure (SBP).",
+  "type": "integer"
+}

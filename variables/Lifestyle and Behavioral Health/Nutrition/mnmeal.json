@@ -1,0 +1,9 @@
+{
+  "id": "mnmeal",
+  "display_name": "Mean number of meals per day",
+  "description": "",
+  "type": "numeric",
+  "labels": [
+    "food"
+  ]
+}

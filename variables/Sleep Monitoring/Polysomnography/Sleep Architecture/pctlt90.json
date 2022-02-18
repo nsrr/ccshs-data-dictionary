@@ -1,0 +1,11 @@
+{
+  "id": "pctlt90",
+  "display_name": "Percentage duration of sleep with oxygen saturation < 90% from type I polysomnography",
+  "description": "Ratio of the number of minutes with oxygen saturation (SaO2) under 90% to the total sleep time expressed in hours.",
+  "type": "numeric",
+  "units": "percent (%)",
+  "labels": [
+    "pctdursp_salt90_f1t1"
+  ],
+  "commonly_used": true
+}

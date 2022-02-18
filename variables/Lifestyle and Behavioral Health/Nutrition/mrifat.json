@@ -1,0 +1,10 @@
+{
+  "id": "mrifat",
+  "display_name": "Mean total fat per day",
+  "description": "",
+  "type": "numeric",
+  "units": "grams per day",
+  "labels": [
+    "food"
+  ]
+}

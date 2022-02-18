@@ -1,0 +1,7 @@
+{
+  "id": "bp2dias2",
+  "display_name": "Diastolic blood pressure (DBP) (Morning) time 2",
+  "description": "Second measurement of diastolic blood pressure (DBP) in morning",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)"
+}

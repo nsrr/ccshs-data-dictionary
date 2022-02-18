@@ -1,0 +1,10 @@
+{
+  "id": "timeremp",
+  "display_name": "Percentage of REM sleep among total sleep duration from type I polysomnography",
+  "description": "Conventionally, total sleep duration would be called total sleep time (TST).<br><br>[100*(number of minutes scored as REM) / (total sleep time)] * 100",
+  "type": "numeric",
+  "units": "percent (%)",
+  "labels": [
+    "pctdursp_sr_f1t1"
+  ]
+}

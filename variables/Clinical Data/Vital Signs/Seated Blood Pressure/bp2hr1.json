@@ -1,0 +1,7 @@
+{
+  "id": "bp2hr1",
+  "display_name": "Heart rate (Morning) time 1",
+  "description": "First measurement of heart rate in morning",
+  "type": "numeric",
+  "units": "beats per minute (bpm)"
+}

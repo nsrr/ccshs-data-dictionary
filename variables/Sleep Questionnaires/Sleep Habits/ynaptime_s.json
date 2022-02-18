@@ -1,0 +1,14 @@
+{
+  "id": "ynaptime_s",
+  "display_name": "Self-reported daily nap time in minutes (all days)",
+  "description": "Calculated as a weighted average of self-reported daily nap time from weekdays and from weekends (ynaptime_s = 5/7 * ywd_napdur  + 2/7*ywe_napdur)",
+  "type": "numeric",
+  "units": "minutes (min)",
+  "labels": [
+    "chat_sleep_and_health_questionnaire",
+    "sleep_hygiene"
+  ],
+  "forms": [
+    "ccshs_sleep_and_health_questionnaire_form"
+  ]
+}

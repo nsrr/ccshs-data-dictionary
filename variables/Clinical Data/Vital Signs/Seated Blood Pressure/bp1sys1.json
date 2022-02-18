@@ -1,0 +1,7 @@
+{
+  "id": "bp1sys1",
+  "display_name": "Systolic blood pressure (SBP) (Evening) time 1",
+  "description": "First measurement of systolic blood pressure (SBP) in evening",
+  "type": "numeric",
+  "units": "millimeters of mercury (mmHg)"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ysleeplatency",
+  "display_name": "Self-reported sleep latency",
+  "description": "Calculated from self report of hours and minutes it takes to fall asleep (ysleeplatency = (yflashr * 60) + yflasmn)",
+  "type": "numeric",
+  "units": "minutes (min)",
+  "labels": [
+    "chat_sleep_and_health_questionnaire",
+    "sleep_latency"
+  ],
+  "forms": [
+    "ccshs_sleep_and_health_questionnaire_form"
+  ]
+}

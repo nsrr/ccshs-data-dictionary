@@ -1,0 +1,10 @@
+{
+  "id": "cslp",
+  "display_name": "Coefficient of variation of daily total sleep duration in main sleep in all days from actigraphy",
+  "description": "",
+  "type": "numeric",
+  "units": "percent (%)",
+  "labels": [
+    "covdursp_im_w7_f2"
+  ]
+}
