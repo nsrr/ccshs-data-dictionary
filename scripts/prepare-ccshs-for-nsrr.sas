@@ -355,7 +355,8 @@ data trec_final_harmonized;
 *age;
 *use age;
 	format nsrr_age 8.2;
- 	nsrr_age = age;
+	if age gt 89 then nsrr_age = 90;
+ 	else if age le 89 then nsrr_age = age;
 
 *age_gt89;
 *use age;
@@ -420,6 +421,38 @@ data trec_final_harmonized;
   else if yevrsmk = 1 then nsrr_ever_smoker = 'yes';
   else if yevrsmk = .  then nsrr_ever_smoker = 'not reported';
 
+*polysomnography;
+*nsrr_ahi_hp3u;
+*use ahi_a0h3;
+  format nsrr_ahi_hp3u 8.2;
+  nsrr_ahi_hp3u = ahi_a0h3;
+
+*nsrr_ahi_hp3r_aasm15;
+*use ahi_a0h3a;
+  format nsrr_ahi_hp3r_aasm15 8.2;
+  nsrr_ahi_hp3r_aasm15 = ahi_a0h3a;
+ 
+*nsrr_ahi_hp4u_aasm15;
+*use ahi_a0h4;
+  format nsrr_ahi_hp4u_aasm15 8.2;
+  nsrr_ahi_hp4u_aasm15 = ahi_a0h4;
+  
+*nsrr_ahi_hp4r;
+*use ahi_a0h4a;
+  format nsrr_ahi_hp4r 8.2;
+  nsrr_ahi_hp4r = ahi_a0h4a;
+ 
+*nsrr_ttldursp_f1;
+*use slpprdp;
+  format nsrr_ttldursp_f1 8.2;
+  nsrr_ttldursp_f1 = slpprdp;
+  
+*nsrr_phrnumar_f1;
+*use ai_all;
+  format nsrr_phrnumar_f1 8.2;
+  nsrr_phrnumar_f1 = ai_all;  
+
+
 	keep 
 		nsrrid
 		visit
@@ -433,6 +466,12 @@ data trec_final_harmonized;
 		nsrr_bmi
 	    nsrr_current_smoker
         nsrr_ever_smoker
+		nsrr_ahi_hp3u
+		nsrr_ahi_hp3r_aasm15
+		nsrr_ahi_hp4u_aasm15
+		nsrr_ahi_hp4r
+		nsrr_ttldursp_f1
+		nsrr_phrnumar_f1		
 		;
 run;
 
@@ -446,7 +485,14 @@ proc means data=trec_final_harmonized;
 VAR 	nsrr_age
 		nsrr_bmi
 		nsrr_bp_systolic
-		nsrr_bp_diastolic;
+		nsrr_bp_diastolic
+		nsrr_ahi_hp3u
+		nsrr_ahi_hp3r_aasm15
+		nsrr_ahi_hp4u_aasm15
+		nsrr_ahi_hp4r
+		nsrr_ttldursp_f1
+		nsrr_phrnumar_f1
+	;
 run;
 
 /* Checking categorical variables */
