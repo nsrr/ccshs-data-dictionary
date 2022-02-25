@@ -1,7 +1,0 @@
-{
-  "id": "nslpend",
-  "display_name": "Number of weekend nights with sleep time data",
-  "description": "",
-  "type": "integer",
-  "units": "nights"
-}

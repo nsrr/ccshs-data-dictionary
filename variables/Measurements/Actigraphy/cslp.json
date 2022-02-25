@@ -1,7 +1,0 @@
-{
-  "id": "cslp",
-  "display_name": "Coefficient of variation - sleep time - all nights",
-  "description": "",
-  "type": "numeric",
-  "units": "percent (%)"
-}

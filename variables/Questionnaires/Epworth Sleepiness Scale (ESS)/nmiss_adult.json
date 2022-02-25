@@ -1,6 +1,0 @@
-{
-  "id": "nmiss_adult",
-  "display_name": "Number of missing items on adult Epworth Sleepiness Scale (ESS) (items 1-7, 9)",
-  "description": "",
-  "type": "integer"
-}

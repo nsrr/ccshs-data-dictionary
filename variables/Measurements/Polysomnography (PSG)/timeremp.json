@@ -1,7 +1,0 @@
-{
-  "id": "timeremp",
-  "display_name": "Percent of sleep time in rapid eye movement sleep (REM)",
-  "description": "[100*(number of minutes scored as REM) / (total sleep time)] * 100",
-  "type": "numeric",
-  "units": "percent (%)"
-}

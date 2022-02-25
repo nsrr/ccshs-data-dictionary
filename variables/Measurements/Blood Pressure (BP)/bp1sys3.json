@@ -1,7 +1,0 @@
-{
-  "id": "bp1sys3",
-  "display_name": "Systolic blood pressure (SBP) (Evening) time 3",
-  "description": "Third measurement of systolic blood pressure (SBP) in evening",
-  "type": "numeric",
-  "units": "millimeters of mercury (mmHg)"
-}

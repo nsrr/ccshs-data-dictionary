@@ -1,9 +1,0 @@
-{
-  "id": "ystatus",
-  "display_name": "Rate socioeconomic standing based on ladder",
-  "description": "",
-  "type": "integer",
-  "forms": [
-    "ccshs_sleep_and_health_questionnaire_form"
-  ]
-}

@@ -2,6 +2,5 @@
   "id": "waz",
   "display_name": "Weight z-score (from the Centers for Disease Control and Prevention (CDC)) for age, gender",
   "description": "Age- and gender-specific weight z-score based on the Centers for Disease Control and Prevention (CDC) norms",
-  "type": "numeric",
-  "units":""
+  "type": "numeric"
 }

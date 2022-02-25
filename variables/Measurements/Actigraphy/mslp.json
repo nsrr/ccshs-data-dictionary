@@ -1,7 +1,0 @@
-{
-  "id": "mslp",
-  "display_name": "Mean sleep time - all nights",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes (min)"
-}

@@ -1,0 +1,14 @@
+{
+  "id": "yplms",
+  "display_name": "Ever had restless legs or periodic limb movements in sleep (PLMS)",
+  "description": "Have you ever had the following medical conditions: Restless Legs or Periodic Limb Movements in Sleep (PLMS)",
+  "type": "choices",
+  "domain": "noyes",
+  "labels": [
+    "chat_sleep_and_health_questionnaire",
+    "rls_plms"
+  ],
+  "forms": [
+    "ccshs_sleep_and_health_questionnaire_form"
+  ]
+}

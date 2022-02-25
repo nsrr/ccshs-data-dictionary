@@ -1,0 +1,14 @@
+{
+  "id": "ymnthsn",
+  "display_name": "Snored in the last month",
+  "description": "Have you snored in the last month?",
+  "type": "choices",
+  "domain": "noyes",
+  "labels": [
+    "chat_sleep_and_health_questionnairel",
+    "snore"
+  ],
+  "forms": [
+    "ccshs_sleep_and_health_questionnaire_form"
+  ]
+}

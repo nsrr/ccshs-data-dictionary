@@ -1,7 +1,0 @@
-{
-  "id": "mseffend",
-  "display_name": "Mean sleep efficiency - weekend nights",
-  "description": "",
-  "type": "numeric",
-  "units": "percent (%)"
-}

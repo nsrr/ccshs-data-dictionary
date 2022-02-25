@@ -1,7 +1,0 @@
-{
-  "id": "nslp",
-  "display_name": "Number of nights with sleep time data",
-  "description": "",
-  "type": "integer",
-  "units": "nights"
-}

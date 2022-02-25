@@ -1,7 +1,0 @@
-{
-  "id": "mslpend",
-  "display_name": "Mean sleep time - weekend nights",
-  "description": "",
-  "type": "numeric",
-  "units": "minutes (min)"
-}

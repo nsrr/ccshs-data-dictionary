@@ -307,6 +307,12 @@
       sitquiet
       homework
       driving
+	  yevrsmkno
+	  yevrsn
+	  ymnthsn
+	  yplmsdx
+	  yplms
+	  ydxsa
       ;
   run;
 

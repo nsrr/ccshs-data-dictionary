@@ -2,6 +2,5 @@
   "id": "wtpct",
   "display_name": "Weight percentile (from the Centers for Disease Control and Prevention (CDC)) for age, gender",
   "description": "Age- and gender-specific weight percentile based on the Centers for Disease Control and Prevention (CDC) norms",
-  "type": "numeric",
-  "units":""
+  "type": "numeric"
 }

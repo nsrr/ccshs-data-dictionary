@@ -2,6 +2,5 @@
   "id": "haz",
   "display_name": "Height z-score (from the Centers for Disease Control and Prevention (CDC)) for age, gender",
   "description": "Age- and gender-specific height z-score based on the Centers for Disease Control and Prevention (CDC) norms",
-  "type": "numeric",
-  "units": ""
+  "type": "numeric"
 }

@@ -1,0 +1,14 @@
+{
+  "id": "yevrsn",
+  "display_name": "Ever snored",
+  "description": "Have you EVER snored?",
+  "type": "choices",
+  "domain": "noyes",
+  "labels": [
+    "chat_sleep_and_health_questionnairel",
+    "snore"
+  ],
+  "forms": [
+    "ccshs_sleep_and_health_questionnaire_form"
+  ]
+}
