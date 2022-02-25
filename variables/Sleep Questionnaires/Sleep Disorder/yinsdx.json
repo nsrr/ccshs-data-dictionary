@@ -5,7 +5,7 @@
   "type": "choices",
   "domain": "noyes",
   "labels": [
-    "chat_sleep_and_health_questionnaire",
+    "ccshs_sleep_and_health_questionnaire",
     "insomnia"
   ],
   "forms": [
