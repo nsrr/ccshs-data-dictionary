@@ -1,0 +1,7 @@
+{
+  "id": "overall",
+  "display_name": "Overall Study Grade",
+  "description": "",
+  "type": "choices",
+  "domain": "studygrade"
+}

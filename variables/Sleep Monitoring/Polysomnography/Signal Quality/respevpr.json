@@ -1,0 +1,7 @@
+{
+  "id": "respevpr",
+  "display_name": "PSG Quality Assessment: Respiratory scoring problems",
+  "description": "Due to signal problems, scorer noted that there was a problem scoring respiratory events.",
+  "type": "choices",
+  "domain": "noyes"
+}

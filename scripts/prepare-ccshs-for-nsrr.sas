@@ -313,6 +313,15 @@
 	  yplmsdx
 	  yplms
 	  ydxsa
+	  slewake
+	  overall
+	  stg1stg2pr
+	  stg2stg3pr
+	 remnrempr
+	  arunrel
+	  remarunrel
+	  respevpr
+	  apnhyppr
       ;
   run;
 
@@ -458,6 +467,13 @@ data trec_final_harmonized;
   format nsrr_phrnumar_f1 8.2;
   nsrr_phrnumar_f1 = ai_all;  
 
+*nsrr_flag_spsw;
+*use slewake;
+  format nsrr_flag_spsw $100.;
+    if slewake = 1 then nsrr_flag_spsw = 'sleep/wake only';
+    else if slewake = 0 then nsrr_flag_spsw = 'full scoring';
+    else if slewake = 8 then nsrr_flag_spsw = 'unknown';
+  else if slewake = . then nsrr_flag_spsw = 'unknown';  
 
 	keep 
 		nsrrid
@@ -477,7 +493,8 @@ data trec_final_harmonized;
 		nsrr_ahi_hp4u_aasm15
 		nsrr_ahi_hp4r
 		nsrr_ttldursp_f1
-		nsrr_phrnumar_f1		
+		nsrr_phrnumar_f1
+        nsrr_flag_spsw		
 		;
 run;
 
@@ -509,7 +526,8 @@ table 	nsrr_age_gt89
 		nsrr_race
 		nsrr_ethnicity
 	    nsrr_current_smoker
-        nsrr_ever_smoker;
+        nsrr_ever_smoker
+		nsrr_flag_spsw;
 run;
 
 
