@@ -1,8 +1,9 @@
-## 0.7.0 
+## 0.7.0 (March 7, 2022)
 
 - Update display names for many sleep variables
 - Update labels for many variables
 - Add initial set of NSRR harmonized core covariates and polysomnography terms (nsrr_*)
+- Add multiple polysomnography signal quality indicators
 - The CSV datasets generated from a SAS export is located here:
   - `\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\0.7.0\`
 
