@@ -19,7 +19,7 @@
   libname nsrrdata "&newtrecpath\nsrr-prep\_datasets";
   libname obf "&newtrecpath\nsrr-prep\_ids";
 
-  %let release = 0.7.0;
+  %let release = 0.8.0.pre;
 
 *******************************************************************************;
 * Import CCSHS-TREC data
@@ -475,6 +475,31 @@ data trec_final_harmonized;
     else if slewake = 8 then nsrr_flag_spsw = 'unknown';
   else if slewake = . then nsrr_flag_spsw = 'unknown';  
 
+*nsrr_ttleffsp_f1;
+*use ai_all;
+  format nsrr_ttleffsp_f1 8.2;
+  nsrr_ttleffsp_f1 = ai_all;  
+  
+*nsrr_pctdursp_s1;
+*use timest1p;
+  format nsrr_pctdursp_s1 8.2;
+  nsrr_pctdursp_s1 = timest1p;
+
+*nsrr_pctdursp_s2;
+*use timest2p;
+  format nsrr_pctdursp_s2 8.2;
+  nsrr_pctdursp_s2 = timest2p;
+
+*nsrr_pctdursp_s3;
+*use times34p;
+  format nsrr_pctdursp_s3 8.2;
+  nsrr_pctdursp_s3 = times34p;
+
+*nsrr_pctdursp_sr;
+*use timeremp;
+  format nsrr_pctdursp_sr 8.2;
+  nsrr_pctdursp_sr = timeremp;
+  
 	keep 
 		nsrrid
 		visit
@@ -494,7 +519,12 @@ data trec_final_harmonized;
 		nsrr_ahi_hp4r
 		nsrr_ttldursp_f1
 		nsrr_phrnumar_f1
-        nsrr_flag_spsw		
+        nsrr_flag_spsw
+		nsrr_pctdursp_s1
+		nsrr_pctdursp_s2
+		nsrr_pctdursp_s3
+		nsrr_pctdursp_sr
+		nsrr_ttleffsp_f1
 		;
 run;
 
@@ -515,6 +545,11 @@ VAR 	nsrr_age
 		nsrr_ahi_hp4r
 		nsrr_ttldursp_f1
 		nsrr_phrnumar_f1
+		nsrr_pctdursp_s1
+		nsrr_pctdursp_s2
+		nsrr_pctdursp_s3
+		nsrr_pctdursp_sr
+		nsrr_ttleffsp_f1
 	;
 run;
 

@@ -1,3 +1,10 @@
+## 0.8.0 
+
+- Add harmonized sleep architecture variables
+- The CSV datasets generated from a SAS export is located here:
+  - `\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\0.8.0\`
+
+
 ## 0.7.0 (March 7, 2022)
 
 - Update display names for many sleep variables

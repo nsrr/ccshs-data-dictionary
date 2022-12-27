@@ -4,7 +4,8 @@
   "description": "On average, over the entire time you smoked, how many cigarettes / cigars / bowls did you smoke each day?",
   "type": "integer",
   "labels": [
-    "ccshs_sleep_and_health_questionnaire"
+    "ccshs_sleep_and_health_questionnaire",
+    "smoking"
   ],
   "forms": [
     "ccshs_sleep_and_health_questionnaire_form"

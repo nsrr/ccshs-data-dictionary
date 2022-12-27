@@ -5,7 +5,8 @@
   "type": "choices",
   "domain": "noyes",
   "labels": [
-    "ccshs_sleep_and_health_questionnaire"
+    "ccshs_sleep_and_health_questionnaire",
+    "smoking"
   ],
   "forms": [
     "ccshs_sleep_and_health_questionnaire_form"
