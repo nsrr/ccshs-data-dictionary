@@ -1,0 +1,11 @@
+{
+  "id": "slplatp",
+  "display_name": "Sleep Latency: the interval between lights-out/in-bed time and sleep onset time from type I polysomnography",
+  "description": "",
+  "type": "numeric",
+  "units": "minutes",
+  "labels": [
+    "slp_lat",
+    "ttllatsp_f1t1"
+  ]
+}

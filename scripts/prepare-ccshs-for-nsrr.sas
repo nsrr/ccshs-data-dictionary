@@ -65,6 +65,21 @@
     ahi_c0h4a = 60 * (hremba4 + hroa4 + hnrba4 + hnroa4 +
                     carbp + carop + canbp + canop ) / slpprdp;
 
+    *create ODI indices;
+    if minremp ne 0 then do;
+      odi3 = ((dsrem3 * minremp) + (dsnr3 * (slpprdp - minremp))) / slpprdp;
+      odi4 = ((dsrem4 * minremp) + (dsnr4 * (slpprdp - minremp))) / slpprdp;
+    end;
+    else do; 
+      odi3 = dsnr3;
+      odi4 = dsnr4;
+    end;
+
+    *createm PLMs w/ arousal per hour of sleep index;
+    if slpprdp gt 0 then do;
+      avgplma = 60*(plmaslp/slpprdp);
+    end;
+
     *clean SAS missing codes out of numeric variables;
     if bp1dias1 in (.m,.n,.i) then bp1dias1 = "";
     if bp1dias2 in (.m,.n,.i) then bp1dias2 = "";
@@ -87,6 +102,9 @@
     if bp2sys3 in (.m,.n,.i) then bp2sys3 = "";
     if bp2time in (.m,.n,.i) then bp2time = "";
     if sleepy_adult in (.m,.n,.i) then sleepy_adult = "";
+
+    *apply formats;
+    format stlonp stloutp stonsetp time8.;
 
     *variable list taken from TREC covariates indicator in Excel data dictionary;
     keep
@@ -262,6 +280,8 @@
       oanbp
       oanop
       ahi_a0h3--ahi_c0h4a
+      odi3
+      odi4
       ydifal
       yexsl
       ypara
@@ -307,24 +327,40 @@
       sitquiet
       homework
       driving
-	  yevrsmkno
-	  yevrsn
-	  ymnthsn
-	  yplmsdx
-	  yplms
-	  ydxsa
-	  slewake
-	  overall
-	  stg1stg2pr
-	  stg2stg3pr
-	 remnrempr
-	  arunrel
-	  remarunrel
-	  respevpr
-	  apnhyppr
+      yevrsmkno
+      yevrsn
+      ymnthsn
+      yplmsdx
+      yplms
+      ydxsa
+      slewake
+      overall
+      stg1stg2pr
+      stg2stg3pr
+      remnrempr
+      arunrel
+      remarunrel
+      respevpr
+      apnhyppr
+      slplatp
+      remlaip
+      remlaiip
+      waso
+      STLOUTP 
+      STLONP 
+      stonsetp
+      avgplm
+      avgplma
       ;
   run;
 
+  /*
+
+  proc means data=trec_out;
+    var avgplm avgplm2;
+  run;
+
+  */
 
   *bring list of obfuscated IDs in and merge with TREC dataset;
   data obf_ids;
@@ -365,25 +401,25 @@
 * create harmonized datasets ;
 *******************************************************************************;
 data trec_final_harmonized;
-	set trec_final;
+  set trec_final;
 *demographics
 *age;
 *use age;
-	format nsrr_age 8.2;
-	if age gt 89 then nsrr_age = 90;
- 	else if age le 89 then nsrr_age = age;
+  format nsrr_age 8.2;
+  if age gt 89 then nsrr_age = 90;
+  else if age le 89 then nsrr_age = age;
 
 *age_gt89;
 *use age;
-	format nsrr_age_gt89 $100.; 
-	if age gt 89 then nsrr_age_gt89='yes';
-	else if age le 89 then nsrr_age_gt89='no';
+  format nsrr_age_gt89 $100.; 
+  if age gt 89 then nsrr_age_gt89='yes';
+  else if age le 89 then nsrr_age_gt89='no';
 
 *sex;
 *use male;
-	format nsrr_sex $100.;
+  format nsrr_sex $100.;
     if male = 1 then nsrr_sex='male';
-	else if male = 0 then nsrr_sex='female';
+  else if male = 0 then nsrr_sex='female';
 
 *race;
 *use race;
@@ -391,34 +427,34 @@ data trec_final_harmonized;
     if race = 1 then nsrr_race = 'white';
     else if race = 2 then nsrr_race = 'black or african american';
     else if race = 3 then nsrr_race = 'asian';
-	else if race = 4 then nsrr_race = 'american indian or alaska native';
-	else if race = 5 then nsrr_race = 'native hawaiian or other pacific islander';
-	else if race = 6 then nsrr_race = 'multiple';
-	else  nsrr_race = 'not reported';
+  else if race = 4 then nsrr_race = 'american indian or alaska native';
+  else if race = 5 then nsrr_race = 'native hawaiian or other pacific islander';
+  else if race = 6 then nsrr_race = 'multiple';
+  else  nsrr_race = 'not reported';
 
 *ethnicity;
 *use ethnicity;
-	format nsrr_ethnicity $100.;
+  format nsrr_ethnicity $100.;
     if ethnicity = 1 then nsrr_ethnicity = 'hispanic or latino';
     else if ethnicity = 2 then nsrr_ethnicity = 'not hispanic or latino';
-	else if ethnicity = . then nsrr_ethnicity = 'not reported';
+  else if ethnicity = . then nsrr_ethnicity = 'not reported';
 
 *anthropometry
 *bmi;
 *use bmi;
-	format nsrr_bmi 10.9;
- 	nsrr_bmi = bmi;
+  format nsrr_bmi 10.9;
+  nsrr_bmi = bmi;
 
 *clinical data/vital signs
 *bp_systolic;
 *use bpsys;
-	format nsrr_bp_systolic 8.2;
-	nsrr_bp_systolic = bpsys;
+  format nsrr_bp_systolic 8.2;
+  nsrr_bp_systolic = bpsys;
 
 *bp_diastolic;
 *use bpdias;
-	format nsrr_bp_diastolic 8.2;
- 	nsrr_bp_diastolic = bpdias;
+  format nsrr_bp_diastolic 8.2;
+  nsrr_bp_diastolic = bpdias;
 
 *lifestyle and behavioral health
 *current_smoker;
@@ -499,33 +535,57 @@ data trec_final_harmonized;
 *use timeremp;
   format nsrr_pctdursp_sr 8.2;
   nsrr_pctdursp_sr = timeremp;
-  
-	keep 
-		nsrrid
-		visit
-		nsrr_age
-		nsrr_age_gt89
-		nsrr_sex
-		nsrr_race
-		nsrr_ethnicity
-		nsrr_bp_systolic
-		nsrr_bp_diastolic
-		nsrr_bmi
-	    nsrr_current_smoker
-        nsrr_ever_smoker
-		nsrr_ahi_hp3u
-		nsrr_ahi_hp3r_aasm15
-		nsrr_ahi_hp4u_aasm15
-		nsrr_ahi_hp4r
-		nsrr_ttldursp_f1
-		nsrr_phrnumar_f1
-        nsrr_flag_spsw
-		nsrr_pctdursp_s1
-		nsrr_pctdursp_s2
-		nsrr_pctdursp_s3
-		nsrr_pctdursp_sr
-		nsrr_ttleffsp_f1
-		;
+ 
+*nsrr_ttllatsp_f1;
+*use slplatp;
+  format nsrr_ttllatsp_f1 8.2;
+  nsrr_ttllatsp_f1 = slplatp;
+ 
+*nsrr_begtimbd_f1;
+*use stloutp;
+  format nsrr_begtimbd_f1 time8.;
+  nsrr_begtimbd_f1 = stloutp;
+
+*nsrr_begtimsp_f1;
+*use stonsetp;
+  format nsrr_begtimsp_f1 time8.;
+  nsrr_begtimsp_f1 = stonsetp;
+
+*nsrr_endtimbd_f1;
+*use stlonp;
+  format nsrr_endtimbd_f1 time8.;
+  nsrr_endtimbd_f1 = stlonp;
+
+  keep 
+    nsrrid
+    visit
+    nsrr_age
+    nsrr_age_gt89
+    nsrr_sex
+    nsrr_race
+    nsrr_ethnicity
+    nsrr_bp_systolic
+    nsrr_bp_diastolic
+    nsrr_bmi
+    nsrr_current_smoker
+    nsrr_ever_smoker
+    nsrr_ahi_hp3u
+    nsrr_ahi_hp3r_aasm15
+    nsrr_ahi_hp4u_aasm15
+    nsrr_ahi_hp4r
+    nsrr_ttldursp_f1
+    nsrr_phrnumar_f1
+    nsrr_flag_spsw
+    nsrr_pctdursp_s1
+    nsrr_pctdursp_s2
+    nsrr_pctdursp_s3
+    nsrr_pctdursp_sr
+    nsrr_ttleffsp_f1
+    nsrr_ttllatsp_f1
+    nsrr_begtimbd_f1
+    nsrr_begtimsp_f1
+    nsrr_endtimbd_f1
+    ;
 run;
 
 *******************************************************************************;
@@ -535,34 +595,35 @@ run;
 /* Checking for extreme values for continuous variables */
 
 proc means data=trec_final_harmonized;
-VAR 	nsrr_age
-		nsrr_bmi
-		nsrr_bp_systolic
-		nsrr_bp_diastolic
-		nsrr_ahi_hp3u
-		nsrr_ahi_hp3r_aasm15
-		nsrr_ahi_hp4u_aasm15
-		nsrr_ahi_hp4r
-		nsrr_ttldursp_f1
-		nsrr_phrnumar_f1
-		nsrr_pctdursp_s1
-		nsrr_pctdursp_s2
-		nsrr_pctdursp_s3
-		nsrr_pctdursp_sr
-		nsrr_ttleffsp_f1
-	;
+VAR   nsrr_age
+    nsrr_bmi
+    nsrr_bp_systolic
+    nsrr_bp_diastolic
+    nsrr_ahi_hp3u
+    nsrr_ahi_hp3r_aasm15
+    nsrr_ahi_hp4u_aasm15
+    nsrr_ahi_hp4r
+    nsrr_ttldursp_f1
+    nsrr_phrnumar_f1
+    nsrr_pctdursp_s1
+    nsrr_pctdursp_s2
+    nsrr_pctdursp_s3
+    nsrr_pctdursp_sr
+    nsrr_ttleffsp_f1
+    nsrr_ttllatsp_f1
+  ;
 run;
 
 /* Checking categorical variables */
 
 proc freq data=trec_final_harmonized;
-table 	nsrr_age_gt89
-		nsrr_sex
-		nsrr_race
-		nsrr_ethnicity
-	    nsrr_current_smoker
+table   nsrr_age_gt89
+    nsrr_sex
+    nsrr_race
+    nsrr_ethnicity
+      nsrr_current_smoker
         nsrr_ever_smoker
-		nsrr_flag_spsw;
+    nsrr_flag_spsw;
 run;
 
 

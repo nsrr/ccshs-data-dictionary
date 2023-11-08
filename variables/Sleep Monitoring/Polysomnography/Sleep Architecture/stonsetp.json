@@ -1,0 +1,9 @@
+{
+  "id": "stonsetp",
+  "display_name": "Sleep onset time from type I polysomnography",
+  "description": "",
+  "type": "time",
+  "labels": [
+    "begtimsp_f1t1"
+  ]
+}
