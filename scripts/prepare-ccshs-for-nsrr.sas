@@ -103,6 +103,20 @@
     if bp2time in (.m,.n,.i) then bp2time = "";
     if sleepy_adult in (.m,.n,.i) then sleepy_adult = "";
 
+    *add sleep maintenance efficiency;
+    if timebedp ne 0 then do;
+        if slplatp > . then slp_maint_eff = 100*(slpprdp/(timebedp-slplatp));
+        else if slplatp = . then slp_maint_eff = 100*(slpprdp/timebedp);
+    end;
+
+    *add new decimal hour variables;
+    format stloutp_dec stonsetp_dec stlonp_dec 8.2;
+    if stloutp < 43200 then stloutp_dec = stloutp/3600 + 24;
+    else stloutp_dec = stloutp/3600;
+    if stonsetp < 43200 then stonsetp_dec = stonsetp/3600 + 24;
+    else stonsetp_dec = stonsetp/3600;
+    stlonp_dec = stlonp/3600 + 24;
+
     *apply formats;
     format stlonp stloutp stonsetp time8.;
 
@@ -192,6 +206,7 @@
       msnackpro
       slpprdp
       slp_eff
+      slp_maint_eff
       timest1p
       timest1
       timest2p
@@ -349,6 +364,9 @@
       STLOUTP 
       STLONP 
       stonsetp
+      stlonp_dec
+      stloutp_dec
+      stonsetp_dec
       avgplm
       avgplma
       ;
@@ -514,7 +532,7 @@ data trec_final_harmonized;
 *nsrr_ttleffsp_f1;
 *use ai_all;
   format nsrr_ttleffsp_f1 8.2;
-  nsrr_ttleffsp_f1 = ai_all;  
+  nsrr_ttleffsp_f1 = slp_eff;  
   
 *nsrr_pctdursp_s1;
 *use timest1p;
@@ -556,6 +574,11 @@ data trec_final_harmonized;
   format nsrr_endtimbd_f1 time8.;
   nsrr_endtimbd_f1 = stlonp;
 
+*nsrr_ttlmefsp_f1;
+*use slp_maint_eff;
+  format nsrr_ttlmefsp_f1 8.2;
+  nsrr_ttlmefsp_f1 = slp_maint_eff;  
+
   keep 
     nsrrid
     visit
@@ -585,6 +608,7 @@ data trec_final_harmonized;
     nsrr_begtimbd_f1
     nsrr_begtimsp_f1
     nsrr_endtimbd_f1
+    nsrr_ttlmefsp_f1
     ;
 run;
 
@@ -610,6 +634,7 @@ VAR   nsrr_age
     nsrr_pctdursp_s3
     nsrr_pctdursp_sr
     nsrr_ttleffsp_f1
+    nsrr_ttlmefsp_f1
     nsrr_ttllatsp_f1
   ;
 run;
