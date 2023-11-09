@@ -1,7 +1,8 @@
 ## 0.8.0 
 
 - Add new PSG variables, including WASO, ODI3/4, and lights timings
-- Add harmonized sleep architecture variables
+- Add harmonized sleep architecture, oxygen saturation, and additional AHI variables
+- Revise variable units
 - The CSV datasets generated from a SAS export is located here:
   - `\\rfawin\bwh-sleepepi-home\projects\cohorts\TREC\nsrr-prep\_releases\0.8.0\`
 

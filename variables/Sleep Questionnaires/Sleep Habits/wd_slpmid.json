@@ -3,6 +3,7 @@
   "display_name": "Midpoint of time in bed from self report (Weekday)",
   "description": "Calculated as the midpoint between self-reported weekday wake time and self-reported weekday bed time.",
   "type": "time",
+  "units": "hh:mm",
   "labels": [
     "ccshs_sleep_and_health_questionnaire"
   ],

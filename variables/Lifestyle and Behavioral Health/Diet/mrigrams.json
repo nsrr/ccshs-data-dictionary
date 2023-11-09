@@ -1,10 +1,11 @@
 {
-  "id": "mrifat",
-  "display_name": "Mean total fat per day",
+  "id": "mrigrams",
+  "display_name": "Mean total grams per day",
   "description": "",
   "type": "numeric",
   "units": "grams per day",
   "labels": [
-    "food"
+    "food",
+    "diet"
   ]
 }

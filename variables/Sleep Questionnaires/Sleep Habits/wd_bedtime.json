@@ -3,6 +3,7 @@
   "display_name": "Self-reported bedtime (Weekday)",
   "description": "",
   "type": "time",
+  "units": "hh:mm",
   "labels": [
     "ccshs_sleep_and_health_questionnaire"
   ],

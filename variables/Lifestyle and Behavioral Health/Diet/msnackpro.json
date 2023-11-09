@@ -5,6 +5,7 @@
   "type": "numeric",
   "units": "grams per day",
   "labels": [
-    "food"
+    "food",
+    "diet"
   ]
 }

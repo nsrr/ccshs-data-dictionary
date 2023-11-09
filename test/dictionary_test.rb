@@ -31,9 +31,10 @@ class DictionaryTest < Minitest::Test
     "days", "drinks", "hours (h)", "hours (hr)", "kilograms (kg)", 
     "kilograms per meters squared (kg/m2)", "millimeters of mercury (mmHg)", 
     "minutes (min)", "percent (%)", "years", "snacks", "meals", 
-    "arousals per hour", "events per hour", 
+    "arousals per hour", "events per hour", "number of events per hour",
     "microvolts squared per hertz (uV2/Hz)", "hertz (Hz)", "events", 
-    "kilograms per square meter", "millimeters of mercury","minutes"]
+    "kilograms per square meter", "millimeters of mercury","number of events",
+	"number of servings"]
 
   @variables.select { |v| %w(numeric integer).include?(v.type) }.each do |variable|
     define_method("test_units: #{variable.path}") do

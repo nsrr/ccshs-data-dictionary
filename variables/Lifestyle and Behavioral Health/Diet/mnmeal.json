@@ -4,6 +4,7 @@
   "description": "",
   "type": "numeric",
   "labels": [
-    "food"
+    "food",
+    "diet"
   ]
 }

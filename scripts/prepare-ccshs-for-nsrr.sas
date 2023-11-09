@@ -511,10 +511,10 @@ data trec_final_harmonized;
   format nsrr_ahi_hp4r 8.2;
   nsrr_ahi_hp4r = ahi_a0h4a;
  
-*nsrr_ttldursp_f1;
+*nsrr_tst_f1;
 *use slpprdp;
-  format nsrr_ttldursp_f1 8.2;
-  nsrr_ttldursp_f1 = slpprdp;
+  format nsrr_tst_f1 8.2;
+  nsrr_tst_f1 = slpprdp;
   
 *nsrr_phrnumar_f1;
 *use ai_all;
@@ -579,6 +579,36 @@ data trec_final_harmonized;
   format nsrr_ttlmefsp_f1 8.2;
   nsrr_ttlmefsp_f1 = slp_maint_eff;  
 
+*nsrr_cai;
+*use cai0p;
+  format nsrr_cai 8.2;
+  nsrr_cai = 60*(canbp+canop+carbp+carop)/slpprdp;
+
+*nsrr_oai;
+*use oai0p;
+  format nsrr_oai 8.2;
+  nsrr_oai = oai0p;
+
+*nsrr_oahi_hp4u;
+*use ahi_o0h4;
+  format nsrr_oahi_hp4u 8.2;
+  nsrr_oahi_hp4u = ahi_o0h4;
+
+*nsrr_oahi_hp3u;
+*use ahi_o0h3;
+  format nsrr_oahi_hp3u 8.2;
+  nsrr_oahi_hp3u = ahi_o0h3;
+
+*nsrr_avglvlsa;
+*use avgsat;
+  format nsrr_avglvlsa 8.2;
+  nsrr_avglvlsa = avgsat;
+
+*nsrr_minlvlsa;
+*use minsat;
+  format nsrr_minlvlsa 8.2;
+  nsrr_minlvlsa = minsat;
+  
   keep 
     nsrrid
     visit
@@ -596,7 +626,7 @@ data trec_final_harmonized;
     nsrr_ahi_hp3r_aasm15
     nsrr_ahi_hp4u_aasm15
     nsrr_ahi_hp4r
-    nsrr_ttldursp_f1
+    nsrr_tst_f1
     nsrr_phrnumar_f1
     nsrr_flag_spsw
     nsrr_pctdursp_s1
@@ -609,6 +639,12 @@ data trec_final_harmonized;
     nsrr_begtimsp_f1
     nsrr_endtimbd_f1
     nsrr_ttlmefsp_f1
+    nsrr_cai
+	nsrr_oai
+	nsrr_oahi_hp4u
+	nsrr_oahi_hp3u
+	nsrr_avglvlsa
+	nsrr_minlvlsa
     ;
 run;
 
@@ -627,7 +663,7 @@ VAR   nsrr_age
     nsrr_ahi_hp3r_aasm15
     nsrr_ahi_hp4u_aasm15
     nsrr_ahi_hp4r
-    nsrr_ttldursp_f1
+    nsrr_tst_f1
     nsrr_phrnumar_f1
     nsrr_pctdursp_s1
     nsrr_pctdursp_s2
@@ -636,6 +672,12 @@ VAR   nsrr_age
     nsrr_ttleffsp_f1
     nsrr_ttlmefsp_f1
     nsrr_ttllatsp_f1
+	nsrr_cai
+	nsrr_oai
+	nsrr_oahi_hp4u
+	nsrr_oahi_hp3u
+	nsrr_avglvlsa
+	nsrr_minlvlsa
   ;
 run;
 
