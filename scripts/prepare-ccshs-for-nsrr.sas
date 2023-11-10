@@ -118,7 +118,20 @@
     stlonp_dec = stlonp/3600 + 24;
 
     *apply formats;
-    format stlonp stloutp stonsetp time8.;
+    format 
+      bp1time
+      bp2time 
+      wd_bedtime
+      wd_waketime
+      wd_slpmid
+      we_bedtime
+      we_waketime
+      we_slpmid
+      time5. 
+      stlonp 
+      stloutp 
+      stonsetp 
+      time8.;
 
     *variable list taken from TREC covariates indicator in Excel data dictionary;
     keep
@@ -640,11 +653,11 @@ data trec_final_harmonized;
     nsrr_endtimbd_f1
     nsrr_ttlmefsp_f1
     nsrr_cai
-	nsrr_oai
-	nsrr_oahi_hp4u
-	nsrr_oahi_hp3u
-	nsrr_avglvlsa
-	nsrr_minlvlsa
+  nsrr_oai
+  nsrr_oahi_hp4u
+  nsrr_oahi_hp3u
+  nsrr_avglvlsa
+  nsrr_minlvlsa
     ;
 run;
 
@@ -672,12 +685,12 @@ VAR   nsrr_age
     nsrr_ttleffsp_f1
     nsrr_ttlmefsp_f1
     nsrr_ttllatsp_f1
-	nsrr_cai
-	nsrr_oai
-	nsrr_oahi_hp4u
-	nsrr_oahi_hp3u
-	nsrr_avglvlsa
-	nsrr_minlvlsa
+  nsrr_cai
+  nsrr_oai
+  nsrr_oahi_hp4u
+  nsrr_oahi_hp3u
+  nsrr_avglvlsa
+  nsrr_minlvlsa
   ;
 run;
 
