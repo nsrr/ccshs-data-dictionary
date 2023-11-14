@@ -1,9 +1,13 @@
 {
   "id": "lying",
-  "display_name": "Chance of dozing while lying down in the afternoon when circumstances permit (ESS5)",
-  "description": "",
+  "display_name": "Epworth Sleepiness Scale: Chance of dozing while lying down in the afternoon when circumstances permit (ESS5)",
+  "description": "Item from the Epworth Sleepiness Scale [Johns MW 1991 (PubMed ID: 1798888)](https://www.ncbi.nlm.nih.gov/pubmed/1798888)<br><br> [Search for all ESS variables within this dataset](https://sleepdata.org/datasets/ccshs/variables?search=epworth)",
   "type": "choices",
   "domain": "epworth",
+  "labels": [
+    "epworth",
+    "ess_5lyingdown"
+  ],
   "forms": [
     "ccshs_epworth_sleepiness_scale"
   ]
