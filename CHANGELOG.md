@@ -1,4 +1,4 @@
-## 0.8.0 
+## 0.8.0 (November 14, 2023)
 
 - Add new PSG variables, including WASO, ODI3/4, and lights timings
 - Add harmonized sleep architecture, oxygen saturation, and additional AHI variables
