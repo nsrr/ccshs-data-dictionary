@@ -3,5 +3,5 @@
   "display_name": "Time of Morning collection",
   "description": "Time of morning blood pressure (BP) collection",
   "type": "time",
-  "units": "hh:mm"
+  "units": "H:mm"
 }

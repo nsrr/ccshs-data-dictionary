@@ -3,7 +3,7 @@
   "display_name": "Self-reported Wake Time (Weekend)",
   "description": "",
   "type": "time",
-  "units": "hh:mm",
+  "units": "H:mm",
   "labels": [
     "ccshs_sleep_and_health_questionnaire"
   ],
